@@ -8294,6 +8294,133 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 689467,
+          "name": "Packet Fixer",
+          "author": "x_tonimatasmc_x",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/packet-fixer",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 15,
+              "name": "server_utility",
+              "shortName": "plugins",
+              "nesting": 0
+            }
+          ],
+          "picture": 787444,
+          "pictures": [],
+          "lanName": "packet-fixer",
+          "version": {
+            "id": 6940439,
+            "name": "packetfixer-3.3.0-1.18-1.20.4-merged",
+            "updateDate": 1756456310000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 49,
+                "name": "1.20.4"
+              },
+              {
+                "id": 48,
+                "name": "1.20.3"
+              },
+              {
+                "id": 47,
+                "name": "1.20.2"
+              },
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              },
+              {
+                "id": 44,
+                "name": "1.19.4"
+              },
+              {
+                "id": 43,
+                "name": "1.19.3"
+              },
+              {
+                "id": 38,
+                "name": "1.19.2"
+              },
+              {
+                "id": 37,
+                "name": "1.19.1"
+              },
+              {
+                "id": 36,
+                "name": "1.19"
+              },
+              {
+                "id": 35,
+                "name": "1.18.2"
+              },
+              {
+                "id": 34,
+                "name": "1.18.1"
+              },
+              {
+                "id": 33,
+                "name": "1.18"
+              }
+            ],
+            "metadata": {
+              "sha1": "e07b58008aeae90d61c5324c740cbbd66bbb34e3",
+              "size": 190422,
+              "path": "mods/packetfixer-3.3.0-1.18-1.20.4-merged.jar",
+              "url": "/mods/689467/6940439/packetfixer-3.3.0-1.18-1.20.4-merged.jar"
+            },
+            "installed": 16776,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 2,
+                "name": "fabric"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              },
+              {
+                "id": 4,
+                "name": "quilt"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 64,
+            "name": "1.21.9"
+          },
+          "updated": 1759611600000,
+          "update": 1759611600000,
+          "downloadALL": 135857,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [],
