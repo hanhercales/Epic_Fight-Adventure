@@ -12,5 +12,3 @@ server-resource-packs/
 natives/
 local/
 TLauncherAdditional.json
-mods/
-*.jar
