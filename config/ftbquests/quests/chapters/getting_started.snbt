@@ -1,0 +1,208 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "550BF00CAF5ED99F"
+	icon: "ftbquests:book"
+	id: "6F0D874D78DB6630"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Đây là quả modpack xàm lòn do tao tạo ra cho vui, vào mà đấm nhau đi mấy con lợn!"]
+			icon: "minecraft:writable_book"
+			id: "1666F2050038B311"
+			rewards: [{
+				id: "0628998E91243722"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Đoán xem"
+			tasks: [{
+				id: "7E2D87E8A7051640"
+				title: "Modpack này á?"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Tao cài quả mod này với một đống Add-on để đấm nhau cho nó gorgeous, tận hưởng đi!"
+				""
+				"À và tất nhiên, có cả đống vũ khí cho chúng mày chọn."
+			]
+			icon: {
+				Count: 1
+				id: "slu:aatrox_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46903EB9A6D2B955"
+			rewards: [{
+				id: "1859E788EA5640C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Đấm nhau một cách GORGEOUS!"
+			tasks: [{
+				id: "2DD34D2315DC7D7F"
+				title: "Epic Fight"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: ["Mấy con Boss ấy à? Chắc là yếu đấy, cứ thử đấm chúng nó đi mà biết mùi!"]
+			icon: "cataclysm:remnant_skull"
+			id: "50CE121EF9FD8BA2"
+			rewards: [{
+				id: "04A6C629BB38526A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Vả bỏ mẹ chúng nó và chiếm đất đi!"
+			tasks: [{
+				id: "45DB84A3D7541751"
+				title: "Boss và Các Vùng Đất Mới"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Nhìn cái title thế thôi, tao nghĩ chúng mày chả lên cấp được đâu, vì tao có cài mod đấy đéo đâu :>"
+				""
+				"Thay vào đấy, bọn quái sẽ lên cấp còn chúng mày thì được học thêm kĩ năng mới. Tận dụng cho tốt vào!"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6CE4B1257AD8D7A9"
+			rewards: [{
+				id: "196F0B16794E50DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "AURA FARMING NÀO"
+			tasks: [{
+				id: "60AAF596EC6ECC7E"
+				title: "CHỈ MÌNH TAO THĂNG CẤP"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Rất nhiều loại phép và sex toy... ý tao là gậy phép và sách phép để chúng mày bắn tùm lum."
+				""
+				"Tao hết ý tưởng trong đầu để viết rồi."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:dragonskin_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "16BBBDD337681E03"
+			rewards: [{
+				id: "135AD63AB2B3602A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Ờ thì... Ma Thuật?"
+			tasks: [{
+				id: "3A68161922EA8A91"
+				title: "MAGIC! It's MAGIC"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["Bản đồ để chúng mày nhìn đường, mong là chúng mày sẽ NHÌN!"]
+			icon: "minecraft:map"
+			id: "59C6AFDAD99BC9F2"
+			rewards: [{
+				id: "412B5443173D142B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Mini map và World Map"
+			tasks: [{
+				id: "227C177A8AC2B976"
+				title: "Map? This world is mine!"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			description: ["Cái tên nói lên tất cả! Đi Dungeon mà loot đồ..."]
+			icon: "cataclysm:dungeon_block"
+			id: "3CFA70CD1BC2A180"
+			rewards: [{
+				id: "320C692E379B8C02"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hầm Ngục Deep Dảk Fantasy"
+			tasks: [{
+				id: "719845B461B9485C"
+				title: "Dungeons!"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: ["Tao đã cài thêm Backpack và Iron Chest. Để đồ cho nó thoải mái."]
+			icon: "minecraft:chest"
+			id: "06D9A9ED29EC91E2"
+			rewards: [{
+				id: "5BD4F6A8A38B612F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Khô đò và lưu item!"
+			tasks: [{
+				id: "76312125BBBF2D6E"
+				title: "Khô đò"
+				type: "checkmark"
+			}]
+			title: "Storage"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Thêm vài con mod hiệu suất, cải thiện đời sống, thực phẩm,..."
+				""
+				"Cố gắng sống sót và trở thành một thằng phá làng phá xóm chính hiệu!"
+			]
+			id: "7AEFB8C27F7C66D8"
+			rewards: [{
+				id: "5333CB7560E1CA33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Vài cái vớ vẩn"
+			tasks: [{
+				id: "314AB6954964C32C"
+				title: "Những thứ linh tinh khác"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+	]
+	title: "Khởi Đầu Moi Da Den"
+}

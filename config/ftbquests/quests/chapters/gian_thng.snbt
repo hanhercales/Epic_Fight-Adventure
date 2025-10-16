@@ -1,0 +1,225 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "gian_thng"
+	group: "208C9DB02EB0FFCC"
+	icon: "minecraft:emerald"
+	id: "3A26FF26B381A8D8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "blades_of_the_fallen:maneki_coin"
+			id: "0E4E4E2F920A4398"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61C7872016ADD8B8"
+					table_id: 3991647350781228248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1892425A28F2DE68"
+					table_id: 4451303138137542407L
+					type: "random"
+				}
+			]
+			subtitle: "x16 Disc Fragment"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0EF06FE0A605EB46"
+				item: "minecraft:disc_fragment_5"
+				type: "item"
+			}]
+			title: "Random XP Coin Reward"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:ancient_debris"
+			id: "1B97FFC852CB4BEF"
+			rewards: [{
+				id: "481A6511165D353C"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "5005494B582A16A3"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Ancient Debris"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: "sons_of_sins:wistiver_spawn_egg"
+			id: "7FF5F24B630F437C"
+			rewards: [{
+				id: "70C5A9B8AE0AD2C3"
+				item: "sons_of_sins:wistiver_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "1AB907C03BE85D8B"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Wistiver - Gluttony"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			icon: "sons_of_sins:kelvin_spawn_egg"
+			id: "729FED3312336AB9"
+			rewards: [{
+				id: "76960768D810D779"
+				item: "sons_of_sins:kelvin_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4EFEBD58222C0399"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Kelvin - Envy"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon: "sons_of_sins:prowler_spawn_egg"
+			id: "2AFAD9C9B794BCA4"
+			rewards: [{
+				id: "3BCEC3CC63D45A8C"
+				item: "sons_of_sins:prowler_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "26CAE8F90A024787"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Prowler - Pride"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			icon: "sons_of_sins:butcher_spawn_egg"
+			id: "72590D2F5C39CD36"
+			rewards: [{
+				id: "5D1C2E0879F80EB0"
+				item: "sons_of_sins:butcher_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "3EC1BE5D1DAB1AF6"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Butcher - Wrath"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			icon: "sons_of_sins:walking_bed_spawn_egg"
+			id: "585BCE76EF1D7A73"
+			rewards: [{
+				id: "2210B21C77E20EE5"
+				item: "sons_of_sins:walking_bed_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "13DD719DEA3D03A0"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Walking Bed - Sloth"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			icon: "sons_of_sins:curse_spawn_egg"
+			id: "3DA6CD944625046A"
+			rewards: [{
+				id: "4AB94414D069A224"
+				item: "sons_of_sins:curse_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "05757D09042006FC"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Curse - Lust"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			icon: "sons_of_sins:blud_spawn_egg"
+			id: "7D3BC8637C38C011"
+			rewards: [{
+				id: "5FA7710F33EF7103"
+				item: "sons_of_sins:blud_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "75746A4E98AD31D6"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Blud - Greed"
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			icon: "cataclysm:remnant_skull"
+			id: "11F444EA9048DF19"
+			rewards: [{
+				id: "3DF708C9C6A65BB6"
+				item: "cataclysm:ancient_remnant_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "15BDC09590D45A7A"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Ancient Remnant"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			icon: "sophisticatedbackpacks:survival_infinity_upgrade"
+			id: "3C9D532EABD3A99B"
+			rewards: [{
+				id: "1C8F1FD1419D7F12"
+				item: "sophisticatedbackpacks:survival_infinity_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				count: 1600L
+				id: "762846FD3F756F96"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Survival Infinite Upgrade"
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+	title: "Gian thương"
+}

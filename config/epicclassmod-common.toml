@@ -1,0 +1,44 @@
+
+[general]
+	#Whether to log the dirt block on common setup
+	logDirtBlock = true
+	#A magic number
+	#Range: > 0
+	magicNumber = 42
+	#What you want the introduction message to be for the magic number
+	magicNumberIntroduction = "The magic number is... "
+	#A list of items to log on common setup.
+	items = ["minecraft:iron_ingot"]
+
+	[general.mobLevel]
+		#Enable Mob Level system
+		enabled = true
+
+	[general.jobWeaponRestriction]
+		#Enable class-weapon restriction (attack speed penalty)
+		enabled = true
+
+[mobLevel]
+	#HP multiplier per level (20 entries)
+	hpMult = [1.0, 1.42, 1.52, 1.62, 1.75, 1.87, 1.99, 2.12, 2.28, 2.44, 2.6, 2.78, 2.97, 3.18, 3.39, 3.64, 3.88, 4.16, 4.44, 4.75]
+	#Attack Damage multiplier per level (20 entries)
+	adMult = [1.0, 1.13, 1.18, 1.25, 1.32, 1.38, 1.46, 1.52, 1.6, 1.67, 1.74, 1.82, 1.9, 1.98, 2.06, 2.14, 2.23, 2.32, 2.4, 2.5]
+	#Spawn probability per level (20 entries, will be normalized)
+	levelProb = [0.215, 0.175, 0.14, 0.1, 0.08, 0.06, 0.05, 0.04, 0.03, 0.025, 0.02, 0.015, 0.012, 0.01, 0.008, 0.006, 0.005, 0.004, 0.003, 0.002]
+
+	[mobLevel.dropChance]
+		#Range: 0.0 ~ 1.0
+		min = 0.05
+		#Range: 0.0 ~ 1.0
+		max = 0.5
+
+	[mobLevel.loot]
+		#Tier1: Level 1~5; format: modid:item[*weight]
+		tier1 = ["minecraft:coal*6", "minecraft:raw_iron*5", "minecraft:raw_copper*5"]
+		#Tier2: Level 6~10
+		tier2 = ["minecraft:coal*5", "minecraft:raw_iron*5", "minecraft:raw_copper*4", "minecraft:raw_gold*3", "minecraft:redstone*3", "minecraft:lapis_lazuli*3"]
+		#Tier3: Level 11~15
+		tier3 = ["minecraft:coal*4", "minecraft:raw_iron*4", "minecraft:raw_gold*4", "minecraft:redstone*4", "minecraft:lapis_lazuli*4", "minecraft:diamond*2", "minecraft:emerald*2"]
+		#Tier4: Level 16~20
+		tier4 = ["minecraft:raw_iron*3", "minecraft:raw_gold*3", "minecraft:redstone*3", "minecraft:lapis_lazuli*3", "minecraft:diamond*3", "minecraft:emerald*3", "minecraft:netherite_scrap*1"]
+

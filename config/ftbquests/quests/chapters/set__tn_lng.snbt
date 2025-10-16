@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "set__tn_lng"
+	group: "2CA04816AF547B92"
+	icon: {
+		Count: 1
+		id: "slu:aatrox_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0A6866C9604FFCFC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7EC00DA45550C8FB"
+			rewards: [
+				{
+					id: "65262EB11C98F457"
+					item: {
+						Count: 1
+						id: "slu:rhaast_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7099813E38B1A0F1"
+					item: {
+						Count: 1
+						id: "slu:rhaast_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "762A492F505CB796"
+					item: {
+						Count: 1
+						id: "slu:rhaast_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E5759157138CD97"
+					item: {
+						Count: 1
+						id: "slu:rhaast_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B0A003C35FFF672"
+				item: {
+					Count: 1
+					id: "slu:rhaast_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "13FD74AB7E2AED24"
+			rewards: [
+				{
+					id: "78604E0C130CD0A1"
+					item: {
+						Count: 1
+						id: "slu:aatrox_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02D148B58E5823DA"
+					item: {
+						Count: 1
+						id: "slu:aatrox_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62C00FD5F02034A8"
+					item: {
+						Count: 1
+						id: "slu:aatrox_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A47A9324FC3A7CB"
+					item: {
+						Count: 1
+						id: "slu:aatrox_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62255FDD76C275E1"
+				item: {
+					Count: 1
+					id: "slu:aatrox_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "092C4DBAA69291C5"
+			rewards: [{
+				id: "5B050AB03FBC2371"
+				item: {
+					Count: 1
+					id: "slu:green_crystal_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62A1B561BEBF24FD"
+					item: {
+						Count: 1
+						id: "slu:conqueror_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66D1432B0AEB1917"
+					item: {
+						Count: 1
+						id: "slu:conqueror_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "770CEFCF68F4AF78"
+					item: {
+						Count: 1
+						id: "slu:conqueror_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68C9B446436D07AA"
+					item: {
+						Count: 1
+						id: "slu:conqueror_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Jax Set"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "0D953B027EE70B1E"
+			rewards: [{
+				id: "16C0E9FA3CFAFEFA"
+				item: {
+					Count: 1
+					id: "slu:jingubang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54217E780D9C1EF7"
+					item: {
+						Count: 1
+						id: "slu:wukong_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40372DA260F2EA70"
+					item: {
+						Count: 1
+						id: "slu:wukong_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "016A48DC322DFF41"
+					item: {
+						Count: 1
+						id: "slu:wukong_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34461B0354C0974A"
+					item: {
+						Count: 1
+						id: "slu:wukong_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wukong Set"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "0D07CE9CB17F8D00"
+			rewards: [{
+				count: 36
+				id: "7F847E42597472B7"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5F6598544BEC8383"
+					item: {
+						Count: 1
+						id: "slu:warrior_king_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20BF5B5C68F93783"
+					item: {
+						Count: 1
+						id: "slu:warrior_king_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6923E02B38040FB5"
+					item: {
+						Count: 1
+						id: "slu:warrior_king_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38FE83E03A8CD2EE"
+					item: {
+						Count: 1
+						id: "slu:warrior_king_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5163E6B2EB99B4D0"
+					item: {
+						Count: 1
+						id: "slu:warrior_king_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Darius Equipment"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "2DE6B172713C19FA"
+			rewards: [
+				{
+					id: "50E5347F606EC336"
+					item: {
+						Count: 1
+						id: "slu:dragon_guardian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21193021D9869707"
+					item: {
+						Count: 1
+						id: "slu:dragon_guardian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02EEBDCCCF7D2C70"
+					item: {
+						Count: 1
+						id: "slu:dragon_guardian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0517EA13FFB27F41"
+					item: {
+						Count: 1
+						id: "slu:dragon_guardian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35A8366B3FA1182C"
+					item: {
+						Count: 1
+						id: "slu:dragon_guardian_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C38A661D72BDD1D"
+					item: {
+						Count: 1
+						id: "slu:dragon_guardian_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "PITAGO Weapons"
+			x: -1.5d
+			y: -2.0d
+		}
+	]
+	title: "Set Đồ Tốn Lường"
+}

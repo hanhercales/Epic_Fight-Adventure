@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "my_farm_cng_c"
+	group: "550BF00CAF5ED99F"
+	icon: {
+		Count: 1
+		id: "twilightforest:zombie_skull_candle"
+		tag: {
+			BlockEntityTag: {
+				CandleAmount: 1
+				CandleColor: 0
+			}
+		}
+	}
+	id: "15A46009AD1A2625"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3401104D5C3127B6"
+			rewards: [
+				{
+					id: "5787FBF8D35F80EC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7B3930D275E7D918"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "5906B2149DDC8967"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			id: "4C45FE77EC92D6C5"
+			rewards: [
+				{
+					id: "54DF1B35A42A4337"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "00456DB1F184D3EE"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king_corpse"
+				icon: "minecraft:skeleton_skull"
+				id: "5AE67CAB401D7BD5"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			id: "5164C231DFE26DC8"
+			rewards: [
+				{
+					id: "553B830E01C5D4CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0A4472FD00CCD792"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "274852655BDEC6D8"
+				type: "kill"
+				value: 5L
+			}]
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			id: "201C446F6F027F0F"
+			rewards: [
+				{
+					id: "6A543319B048F7C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04C894DC952144C4"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "12165410A69B62F6"
+				type: "kill"
+				value: 3L
+			}]
+			x: -6.0d
+			y: -13.5d
+		}
+		{
+			id: "7E2F564016E0099D"
+			rewards: [
+				{
+					id: "324D96CEAB2FEABA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6A3542AEAAB89644"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "3CDB70560E765B42"
+				type: "kill"
+				value: 3L
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			id: "1C2A0A488D0EB5EE"
+			rewards: [
+				{
+					id: "03D0B8136D96CF72"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "46242A8EFBE57BD4"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "521E2BFF66AB80E2"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			id: "3D96814389730BFA"
+			rewards: [
+				{
+					id: "1BFDE94A16256257"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0F5F2A8906207A49"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "1AC5CDA44C506598"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			id: "1091D9DA03A9E8BC"
+			rewards: [
+				{
+					id: "395DB11168879F10"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7F319C720C62547C"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "76E9E3C8BBA52D81"
+				type: "kill"
+				value: 3L
+			}]
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			id: "53CA399F7FE5CC5C"
+			rewards: [
+				{
+					id: "3D455F75B4556C89"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2F3AFC381FE42968"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "00BF2044BDAB3ED4"
+				type: "kill"
+				value: 6L
+			}]
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			id: "4C35B2641BB361A4"
+			rewards: [
+				{
+					id: "54FE9FD989B0F21B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "57D560BC4A6A2CC7"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "33C4DC60540B6894"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: -17.5d
+		}
+		{
+			id: "4E7EB0C70016446D"
+			rewards: [
+				{
+					id: "0DBD4AAA21F774BF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "198BF933AB3D1D04"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "2DF34A433C7D3361"
+				type: "kill"
+				value: 5L
+			}]
+			x: -6.0d
+			y: -17.5d
+		}
+		{
+			id: "589B35FCD0A850BF"
+			rewards: [
+				{
+					id: "0B02A358AEACF127"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2CE2C749FAB084AF"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "31E09070897CA89F"
+				type: "kill"
+				value: 2L
+			}]
+			x: -4.0d
+			y: -17.5d
+		}
+		{
+			id: "653C9C0D7B2FD168"
+			rewards: [
+				{
+					id: "16ECD1FCF00D0FEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "04DADF13E05CBE89"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "75F82EC6B92DD42D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -15.5d
+		}
+		{
+			id: "460B178E5F063942"
+			rewards: [
+				{
+					id: "379E3FF0879056CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "643718255F7B9A6C"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "010E846D2D7E0AE5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			id: "656D8C196BBEB609"
+			rewards: [
+				{
+					id: "610426D41029CD66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2EF615DED3D27310"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "187FCA80ACB8BE95"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.0d
+			y: -13.5d
+		}
+		{
+			id: "39F4964271B5D5A3"
+			rewards: [
+				{
+					id: "343F4D8EADD56940"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B40BFB54053C33C"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie_villager"
+				id: "6AD63680DF728368"
+				type: "kill"
+				value: 5L
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["553C42E08BCBA94D"]
+			icon: "minecraft:nether_star"
+			id: "79F44D000EBC0348"
+			rewards: [
+				{
+					id: "6D56F28163B8986A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "76E70E9C8EBE0CEC"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "0F7CFDD3E000DADB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -14.5d
+		}
+	]
+	title: "Máy Farm Công Đức"
+}

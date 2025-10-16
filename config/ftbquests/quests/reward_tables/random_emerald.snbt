@@ -1,0 +1,14 @@
+{
+	icon: "blades_of_the_fallen:coin"
+	id: "3DC6349EC0450F07"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 8, item: "blades_of_the_fallen:coin" }
+		{ count: 16, item: "blades_of_the_fallen:coin", weight: 0.5f }
+		{ count: 32, item: "blades_of_the_fallen:coin", weight: 0.3f }
+		{ count: 48, item: "blades_of_the_fallen:coin", weight: 0.2f }
+		{ count: 64, item: "blades_of_the_fallen:coin", weight: 0.1f }
+	]
+	title: "Random Coin"
+}

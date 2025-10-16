@@ -1,0 +1,345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "solo_leveling"
+	group: "2CA04816AF547B92"
+	icon: "efn:nf_dual_sword"
+	id: "4BB152DFB9781891"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43409A3E0B50ECD1"]
+			description: ["Đây là quả mod có thể lói nà mượt vãi cả cứt. Cho mày thêm hơn chục cây kiếm và hai bộ giáp. Chế đống đồ đấy mà đi đấm nhau!"]
+			id: "1C960963C0F88409"
+			rewards: [
+				{
+					id: "64E050CC0225BE91"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3E8F6C5DA43D7200"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0291DF3215082733"
+				title: "Tập Vuốt Cằm Cho Nhọn"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "5F74A3D965B58E1F"
+			rewards: [{
+				count: 5
+				id: "6CDFF24ABFDAC8FC"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6879222713F43701"
+				item: "efn:ruinsgreatsword"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "5E0CD6580087AF45"
+			rewards: [{
+				count: 5
+				id: "60AAB61D805BE291"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7271648FC7E73282"
+				item: "efn:nf_shortsword"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "2413929D80C95127"
+			rewards: [{
+				count: 5
+				id: "5A776A1C8F6F9886"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3578DD7AE45DDC20"
+				item: "efn:nf_dual_sword"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "4A4973F201A36724"
+			rewards: [{
+				count: 5
+				id: "49A29E53ECC74B5F"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0787CA6A5C4D37D6"
+				item: "efn:sword_of_pioneer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "79828861E22DB9C7"
+			rewards: [{
+				count: 5
+				id: "7639136E924410B3"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C27123EF6BE568B"
+				item: "efn:nf_claw"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "5C4F070B0997B73C"
+			rewards: [{
+				count: 5
+				id: "498D2BECA5AD941D"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C0B82443B9FEC93"
+				item: "efn:co_tachi"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "12EFA441A3CB9359"
+			rewards: [{
+				count: 5
+				id: "58AD662C4D67466D"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1851111C2E2BBD21"
+				item: "efn:fire_exsiliumgladius"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "13FDDD741A8F3E67"
+			rewards: [{
+				count: 5
+				id: "46B09DBDD8272BD8"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01325FE7B5CAB72A"
+				item: {
+					Count: 1
+					id: "efn:yamato_dmc4_in_sheath"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "58960579B91B3175"
+			rewards: [{
+				count: 5
+				id: "599C8D7E8EDC43DB"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "395FCCD6AB736D10"
+				item: "efn:duskfire_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "5FD53C6A6F77D458"
+			rewards: [{
+				count: 5
+				id: "7A47ADC4094796EC"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A0C5BA80A57FA8"
+				item: {
+					Count: 1
+					id: "efn:yamato_dmc_in_sheath"
+					tag: {
+						KillCount: 1
+						TotalDamage: 229.14104f
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "3D0E7F0F3BC79A3F"
+			rewards: [{
+				count: 5
+				id: "0E001EA33EC5E20E"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C9EE00316FF8937"
+				item: "efn:air_tachi"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C960963C0F88409"]
+			id: "02DA186DCA980342"
+			rewards: [{
+				count: 5
+				id: "681119B8FE29DA5D"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CC382A22EBC8A9B"
+				item: "efn:exsiliumgladius"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F74A3D965B58E1F"]
+			id: "0B210947E08BD2AD"
+			rewards: [{
+				count: 16
+				id: "7C6F744B90890B13"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06174D59C7993ABE"
+					item: "efn:ruinfighter_helmet"
+					type: "item"
+				}
+				{
+					id: "121709DF1B56AED4"
+					item: "efn:ruinfighter_chestplate"
+					type: "item"
+				}
+				{
+					id: "2F1D1FA2B6C56D9F"
+					item: "efn:ruinfighter_leggings"
+					type: "item"
+				}
+				{
+					id: "231A300D7034BBD0"
+					item: "efn:ruinfighter_boots"
+					type: "item"
+				}
+			]
+			title: "Ruinfighter Set"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58960579B91B3175"]
+			id: "03405DCCE4967CD2"
+			rewards: [{
+				count: 16
+				id: "0EB2B1BDC5A31D08"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C6D3198AC9B4464"
+					item: "efn:duskfire_helmet"
+					type: "item"
+				}
+				{
+					id: "0D2E6A11D482949D"
+					item: "efn:duskfire_chestplate"
+					type: "item"
+				}
+				{
+					id: "6A2BB96560E5A7D5"
+					item: "efn:duskfire_leggings"
+					type: "item"
+				}
+				{
+					id: "57D9F252FA2090CF"
+					item: "efn:duskfire_boots"
+					type: "item"
+				}
+			]
+			title: "Duskfire Set"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58960579B91B3175"]
+			id: "3EF917B01410CA28"
+			rewards: [{
+				count: 5
+				id: "13B12B2892C1D203"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A90C526B50E298"
+				item: "efn:meen_spear"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+	]
+	title: "SOLO LEVELING!"
+}

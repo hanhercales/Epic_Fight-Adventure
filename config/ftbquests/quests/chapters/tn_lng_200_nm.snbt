@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tn_lng_200_nm"
+	group: "1E121742FBBEEDE6"
+	icon: {
+		Count: 1
+		id: "slu:aatrox_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "39517E4D920328CD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Nghe thế chứ thằng này là học trò của Master YI."]
+			icon: {
+				Count: 1
+				id: "slu:jingubang"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27DCBF2A1EA325D0"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					count: 10
+					id: "0A314274D54DBA65"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "1D3AD07F0786D54A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 2.0d
+			subtitle: "Tề Thiên Đại Thánh Tôn Ngộ Không"
+			tasks: [{
+				entity: "slu:boss_wukong"
+				icon: "slu:boss_wukong_spawn_egg"
+				id: "0422997A6A1C0F1D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Đấu Chiến Thắng Phật"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["Nghe kinh không? Kinh đúng không? Nó xoay thấy mẹ mày luôn!"]
+			icon: "slu:spawn_magic_darius"
+			id: "3FBE5EBC500C7027"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					count: 10
+					id: "2E642537D0AD2C97"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "71296EFD002D07A9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 2.0d
+			subtitle: "DEMACIA!!"
+			tasks: [{
+				entity: "slu:boss_darius"
+				icon: "slu:boss_darius_spawn_egg"
+				id: "367BACF8B968F890"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Đại Tướng Noxus"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Thà rằng người hãy nói hết"
+				""
+				"Để anh quay lưng bước đi"
+				""
+				"Thà rằng người đừng níu kéo"
+				""
+				"Để cho anh thôi hi vọng thêm..."
+			]
+			icon: {
+				Count: 1
+				id: "slu:aatrox_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1602B32D9641C932"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					count: 10
+					id: "7E2DE6340E9EF592"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "50C94D354F9DF5AC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 2.0d
+			subtitle: "Aa+trox"
+			tasks: [{
+				entity: "slu:boss_aatrox"
+				icon: {
+					Count: 1
+					id: "slu:aatrox_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7C08779972B6EC64"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Biết ông Thà không?"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			description: ["Lồng Đèn Xanh! Đúng vậy. Hắn chính là Lồng Đèn Xanh!"]
+			icon: "slu:spawn_magic_jax"
+			id: "2B1769D82F847456"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					count: 10
+					id: "3B95F86B2F397E0F"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "6BFC1BD470C46D1A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 2.0d
+			subtitle: "Bậc Thầy Sex Toy"
+			tasks: [{
+				entity: "slu:boss_jax"
+				icon: "slu:boss_jax_spawn_egg"
+				id: "6756E90233AE37E5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Lồng Đèn Xanh"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: ["Thượng Nhân cực bá dơ, mạnh vãi lờ!"]
+			icon: {
+				Count: 1
+				id: "slu:dragon_guardian_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16879F2568B49D2A"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					count: 10
+					id: "5D7CC1B042977CD5"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "6E6FC63C53AC5A32"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 2.0d
+			subtitle: "Diệt Thần"
+			tasks: [{
+				entity: "slu:boss_pantheon"
+				icon: "slu:boss_pantheon_spawn_egg"
+				id: "5E7585EE606E177E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Thượng Nhân PITAGO"
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "Tốn Lường 200 năm"
+}

@@ -1,0 +1,26 @@
+{
+	id: "7056D1B214DDC9C3"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "random_slu_soul"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "slu:hollow_soul" }
+		{ item: "slu:hollow_soul_2", weight: 0.8f }
+		{ item: "slu:hollow_soul_3", weight: 0.6f }
+		{ item: "slu:giant_soul", weight: 0.8f }
+		{ item: "slu:giant_soul_2" }
+		{ item: "slu:giant_soul_3", weight: 0.6f }
+		{ item: "slu:knight_soul" }
+		{ item: "slu:knight_soul_2", weight: 0.8f }
+		{ item: "slu:knight_soul_3", weight: 0.6f }
+	]
+	title: "Random SLU Soul"
+}

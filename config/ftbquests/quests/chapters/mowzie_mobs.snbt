@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzie_mobs"
+	group: "1E121742FBBEEDE6"
+	icon: "mowziesmobs:wrought_helmet"
+	id: "4CBDEB397CEA5DED"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7FEC71567D6AB28A"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "121320496E4A115B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "0F7F3E3BBDDF6317"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "64D8284D4C87C420"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ferrous Wroughtnaut"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "67EBF10A52BD5BDE"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "6BFE2C57E8300E99"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "621B16BD660675C1"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7140B96B52902E33"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Tongbi, The Sculptor"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "0FDE9DB6971FEFEA"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "4BF7B1E22E14564E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "0EA22F0702F2DEE0"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "6E6440A8F8C8570F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Umvuthi, The Sun Bird"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "166F6E795FB0F6D4"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "3C73C1353563723E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "3439A05060EE2812"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "20825EFDB0BD30A2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Frost Maw"
+			x: 3.5d
+			y: 2.0d
+		}
+	]
+	title: "Mowzie Mobs"
+}

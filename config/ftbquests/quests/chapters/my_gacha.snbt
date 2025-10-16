@@ -1,0 +1,202 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "my_gacha"
+	group: "208C9DB02EB0FFCC"
+	icon: "minecraft:music_disc_11"
+	id: "59A7E432E0B50C34"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:dragonsteel_fire_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72FB93BFBC725560"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00E2A75793AB1238"
+					table_id: 651321445919219966L
+					type: "random"
+				}
+				{
+					id: "7D501EE0B2B1F202"
+					item: "minecraft:disc_fragment_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6F4660771C054A1D"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Dragon Equipment Crate"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:oath_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44B4C5D535AE6571"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "121252A0019AE5E9"
+					table_id: 6549619085267876950L
+					type: "random"
+				}
+				{
+					id: "2DCECD84CDAFF251"
+					item: "minecraft:disc_fragment_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0A47C5E0C0A074A4"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "DoC Weapon Crate"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "dungeons_and_combat:crimson_bloodweave_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F8233B96E8E73C9"
+			rewards: [
+				{
+					id: "6B76BBC73D039D1F"
+					table_id: 2816555769870874806L
+					type: "random"
+				}
+				{
+					id: "2B4B689ED55184A6"
+					item: "minecraft:disc_fragment_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "513A0D02CC3C0FA2"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "DoC Equipment Crate"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "magistuarmory:rusted_bastardsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A8928951CA08200"
+			rewards: [
+				{
+					id: "6AFC314ACE160604"
+					table_id: 3781113038511634021L
+					type: "random"
+				}
+				{
+					id: "2E93EBD9D77F5369"
+					item: "minecraft:disc_fragment_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "67E3A4B1E6D84DC5"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Rusted Equipement Crate"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: "slu:tower_flag"
+			id: "0E795063D7BC5199"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5223D52299C4D7CB"
+				table_id: 6549619085267876950L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0AE27254F034A3BE"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "SLU Drops Crate"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "slu:knight_soul_3"
+			id: "1864054D37A2ABC9"
+			rewards: [{
+				id: "6EB0263D0E63BB9C"
+				table_id: 8094887943029508547L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "45DFC3F15D656CCC"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "SLU Sloul Crate"
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	title: "Máy Gacha"
+}

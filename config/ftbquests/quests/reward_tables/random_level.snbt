@@ -1,0 +1,33 @@
+{
+	icon: "minecraft:experience_bottle"
+	id: "37652E1DEBF1B4D8"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{
+			type: "xp_levels"
+			weight: 0.8f
+			xp_levels: 10
+		}
+		{
+			type: "xp_levels"
+			weight: 0.6f
+			xp_levels: 15
+		}
+		{
+			type: "xp_levels"
+			weight: 0.4f
+			xp_levels: 20
+		}
+		{
+			type: "xp_levels"
+			weight: 0.2f
+			xp_levels: 50
+		}
+	]
+	title: "Random Level"
+}

@@ -1,0 +1,972 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rng_chng_vng"
+	group: "550BF00CAF5ED99F"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "36ADB9A7FA7E0304"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Đây là khu rừng trong cổ tích, tập hợp đủ loại sinh vật kì bí mà mày sẽ gặp trong mấy câu chuyện cổ tích cho trẻ con."
+				""
+				"Đóng vai Comlumbus và sang đây mà chiếm đất của người bản địa đi!"
+			]
+			id: "70342D37FFB1EA7F"
+			rewards: [{
+				id: "793F2FF0BE8AF7CE"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "The Twilight Forest"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "21C17B54E71FBA90"
+				type: "dimension"
+			}]
+			title: "Thăm rừng cổ tick"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70342D37FFB1EA7F"]
+			description: ["Dùng lông chim đen kết hợp với cái của nợ này để thành lông chim phát sáng"]
+			id: "3B67F0EF74D4B575"
+			rewards: [{
+				id: "7F139F78A40A3FC6"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			subtitle: "x1 Raven Feather"
+			tasks: [{
+				id: "3BD1D2419FF6282F"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			title: "Lông Chim Đen"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B67F0EF74D4B575"]
+			description: ["Chế tạo một cái bản đồ để mà mò đường."]
+			id: "5E72764591755F16"
+			rewards: [{
+				count: 5
+				id: "44296DBC75CD1FD1"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			subtitle: "Magic Map!"
+			tasks: [{
+				id: "3AE366A12B71E138"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			title: "Bản Đồ Ma Thuật"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70342D37FFB1EA7F"]
+			description: ["Đi rừng là phải làm gì ạ? PHẢI ĂN QUÁI RỪNG!"]
+			icon: "twilightforest:naga_trophy"
+			id: "4301A09A206BB745"
+			rewards: [
+				{
+					id: "02F89F9F5D63A1A2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "16756D88FE10F660"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Thịt con rắn này cho TAO!"
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "02B133668D839D50"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Giết Rắn"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4301A09A206BB745"]
+			description: ["Trong rừng có một tòa tháp. Trên tháp có một bộ xương. Gạt nó đi em!"]
+			icon: "twilightforest:lich_trophy"
+			id: "6E9F8D8C2631DE9A"
+			rewards: [
+				{
+					id: "220EBD1D22739942"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "0EC06510DB14AD7C"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Giết con lợn này cho tao!"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "465A2B2D2210ACB0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Elder Lich"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E9F8D8C2631DE9A"]
+			description: ["Tìm ở khu đầm lầy một mê cung của mấy con bò. Vô đó săn bò đi!"]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "66961D0CF3A53FC0"
+			rewards: [
+				{
+					id: "7B5F963558233381"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "4F0F55DF9A87DA65"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Cóa ai ăng chịt bòa hong?"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "7763413EF8C2853F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Săn Bò"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E9F8D8C2631DE9A"]
+			description: ["Trong Rừng tối (Dark Forest) có một mê cung. Hãy tiêu diệt đám Nguyền Giáp tại đó!"]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "194206F83C3E34E7"
+			rewards: [
+				{
+					id: "47BD7BBED909E80C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "4B3C5EBCEA89848D"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Phá giáp bị ám"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "31A605353FD7EF65"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Phá Giáp"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4301A09A206BB745"]
+			description: ["Lấy vảy con rắn mày giết mà chế giáp!"]
+			icon: {
+				Count: 1
+				id: "twilightforest:naga_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:fire_protection"
+						lvl: 3s
+					}]
+				}
+			}
+			id: "135F1113C079A06C"
+			rewards: [{
+				id: "37F7D516254F3FB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Giáp khá là ngon"
+			tasks: [
+				{
+					id: "045BA0422F38DBE4"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21E7CF280BBBCE3D"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Giáp Rắn"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E9F8D8C2631DE9A"]
+			description: ["Tại khu tuyết có mấy cái hang Yeti. Tới đó và đấm vào đít con Alpha đi!"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "370CF6A8DCFD5076"
+			rewards: [
+				{
+					id: "77AC41794DE21253"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "5B1E9AF6736E343B"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Chém con Alpha Yeti cho tao!"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "32FA956A103CA597"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Trảm Người Tuyết"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6E9F8D8C2631DE9A"]
+			description: ["Cứ đấm đi đấm lại mấy con Lich mà kiếm sex toy của tụi nó. Đủ 4 cây nhé."]
+			id: "20CFAAAD5066E783"
+			rewards: [{
+				id: "5A2A31FC47C447C6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Sex Toy của Hoàng Kim Code"
+			tasks: [
+				{
+					id: "114CF15892A9BF07"
+					item: {
+						Count: 1
+						id: "twilightforest:twilight_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "077E70FEC493C546"
+					item: {
+						Count: 1
+						id: "twilightforest:lifedrain_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DAE8B36C31EB82E"
+					item: {
+						Count: 1
+						id: "twilightforest:zombie_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49C5444F28628D23"
+					item: {
+						Count: 1
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mấy cây sex toy"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["194206F83C3E34E7"]
+			description: [
+				"Sâu trong Rừng tối, có cái tòa tháp nho nhỏ xinh xinh của bọn Ghast."
+				""
+				"Vào đấy, giết con trùm, và cút!"
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "4FC36FF28E6BB0FA"
+			rewards: [
+				{
+					id: "00902264DB65A7D3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "30DB61E60DB8714E"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Ô kìa con ma!"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "332389C2EBB0E6AB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Con Ma To BỰ"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["370CF6A8DCFD5076"]
+			description: [
+				"Con mẹ này sống một mình trong một tòa tháp băng cao thì vờ lờ."
+				""
+				"Biết phải làm gì không? Thịt nó đi!"
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "0DD8C629F68B34CD"
+			rewards: [
+				{
+					id: "52AFD176C5C0D856"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "27C62BE5F38CD227"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Lữ Quàng Băng Rá"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "249305A257233C16"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Elsa"
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"66961D0CF3A53FC0"
+				"12B991F15CDCBA51"
+				"58BF81B227D1B719"
+				"5746D4D2D88B6B99"
+				"6289D361CB1DC292"
+				"524FEB3812A1DF0C"
+				"262F794444A08B30"
+				"3E19C70C028E9EC7"
+				"25F7E408A446D9D7"
+				"4DEFD1A69612F194"
+			]
+			description: [
+				"Một con Hydra sống trong một hang động nóng bỏng ở trung tâm đầm lầy."
+				""
+				"Tao nghĩ mày biết phải làm gì..."
+			]
+			icon: "twilightforest:hydra_trophy"
+			id: "5DAB48F1FBD3A178"
+			rewards: [
+				{
+					id: "2187C93EFF13792E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "75411B4E60CBDC14"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Chặt đầu nó đi!"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "76E5F29A4A4E8905"
+				type: "kill"
+				value: 1L
+			}]
+			title: "HYDRA!!!"
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["370CF6A8DCFD5076"]
+			description: ["Lột da mấy con Alpha Yeti mà làm giáp!"]
+			id: "44EA2EF6423F2512"
+			rewards: [{
+				id: "04DB769CCC1B0F6B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Áo giáp Yeti"
+			tasks: [
+				{
+					id: "38172EAC09677353"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B9A2A8E3B0E248F"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36E77712C1731C5E"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2397671FAE868072"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Yeti Cosplay"
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0DD8C629F68B34CD"]
+			description: ["Cứ đấm đi đấm lại con Elsa mà kiếm mấy cây cung. Đủ 4 cây nhé."]
+			id: "5BC3CF84F47139BC"
+			rewards: [{
+				id: "608248191E55FA16"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "4 cây cung khủ"
+			tasks: [
+				{
+					id: "1963ECA8043F25C1"
+					item: {
+						Count: 1
+						id: "twilightforest:ender_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "109F511FD816A0A8"
+					item: {
+						Count: 1
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21BFB3AB0D15C07B"
+					item: {
+						Count: 1
+						id: "twilightforest:seeker_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FD35D7E63BD336B"
+					item: {
+						Count: 1
+						id: "twilightforest:ice_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cung khủ của Elsa"
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["66961D0CF3A53FC0"]
+			description: ["Ăn đồ ăn của mấy con... bò? Mày có chắc không đấy?"]
+			id: "2718253FBB9BACFF"
+			rewards: [{
+				count: 2
+				id: "139E9ADFB3569AEF"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			subtitle: "Ai Ăng Súp Bòa Nấm Hong?"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "4D15A3F4D2FE39E2"
+				type: "advancement"
+			}]
+			title: "Súp Bòa Nấm"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["66961D0CF3A53FC0"]
+			description: ["Đéo biết vì lí do gì, nhưng cứ phá cái mê cung đi. Tao nghĩ nó sẽ vui lắm."]
+			id: "40E7E7E3E423FDC1"
+			rewards: [{
+				id: "3F05C628472A8985"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Thằng phá hoại"
+			tasks: [{
+				id: "2076CFF4EA112B4E"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Phá hủy mê cung"
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4FC36FF28E6BB0FA"
+				"5DAB48F1FBD3A178"
+			]
+			description: ["Ờ thì... Nghe có vẻ hơi súc vật, nhưng bộ đồ này làm từ máu và nước mắt (không phải của mày)."]
+			id: "6BA862B5B5E865E9"
+			rewards: [
+				{
+					id: "4A9D74B569387B54"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "6626A98E45965430"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "CHÁY LÊN ĐI LỬA THIÊNG CAO NGUYÊN"
+			tasks: [
+				{
+					id: "194B8EAC88045831"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C25BFBB824C44BF"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A6DD241914A6922"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39F4C3F4BC12A04F"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F4F6C90DDE63B4D"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32274B518D2D1F75"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fiery Equipment"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5DAB48F1FBD3A178"]
+			description: ["Như một người Châu Á, con gì động đậy là cho được vào mồm hết!"]
+			id: "3D7BABD7F951BA20"
+			rewards: [{
+				id: "3C656288A828E01B"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			subtitle: "Ăn thịt rắn hun khói đê"
+			tasks: [{
+				id: "12D709C3D2A1F6FC"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			title: "Thịt rắn"
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["70342D37FFB1EA7F"]
+			description: [
+				"Tìm cái Maze Map Focus rồi chế cái bản đồ mê cung."
+				""
+				"P/s: Mỗi cái mê cung phải chế một cái bản đồ khác nhau!"
+			]
+			icon: "twilightforest:maze_map"
+			id: "713069821A9DE77A"
+			rewards: [{
+				count: 3
+				id: "4D278F9E25B3418C"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			subtitle: "Đúng như cái tên!"
+			tasks: [
+				{
+					id: "3E9A654273C4E5A9"
+					item: "twilightforest:maze_map_focus"
+					type: "item"
+				}
+				{
+					id: "1AF53ABFD9228F0D"
+					item: "twilightforest:maze_map"
+					type: "item"
+				}
+			]
+			title: "Bản đồ mê cung"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70342D37FFB1EA7F"]
+			description: ["Tìm cái khu của con cừu bỏ mẹ này, đặt hết mớ lông cừu lên, và mày sẽ thành chúa tể LGBT."]
+			id: "3EADB24AC1FB4145"
+			rewards: [
+				{
+					id: "31B35D1641234CBF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "18F7A8D964BA476A"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Con ciu bay mau"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "6A628DB471101FAF"
+				type: "advancement"
+			}]
+			title: "Cừu LGBT"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5DAB48F1FBD3A178"
+				"4FC36FF28E6BB0FA"
+				"0DD8C629F68B34CD"
+			]
+			description: ["Đấm hết mấy con boss trước đó, mưa acid sẽ ngừng, và tòa thành cuối cùng sẽ cuất hiện!"]
+			id: "79C55DF4576A8133"
+			rewards: [{
+				id: "50EC2BF744424D23"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Kết thúc câu chuyện?"
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "6F857E76B99D1AEF"
+				type: "advancement"
+			}]
+			title: "Vùng đất cúng cuồi"
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0C6EA663A7E6D0BE"]
+			description: ["Xử mấy thằng to xác trên đảo trời và lấy đồ của chúng nó?"]
+			id: "431A670C66D34971"
+			rewards: [
+				{
+					count: 5
+					id: "0EBA7C2EBC39442D"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "65E909570AB38374"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Lên đảo trên trời!"
+			tasks: [
+				{
+					id: "076D77E61EDD4A54"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1565B5198D0AE9EF"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diệt Khổng Lồ"
+			x: 3.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["79C55DF4576A8133"]
+			description: [
+				"Dưới lòng đất ở ngay dưới đảo trời, có cái hang to to."
+				"Trong hang có hạt đậu nho nhỏ, nở thành cái cây to to."
+			]
+			id: "0C6EA663A7E6D0BE"
+			rewards: [{
+				id: "1EE4CDCBCC079878"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Đậu ma - Hồi sinh!"
+			tasks: [{
+				id: "640C35D17360D86F"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			title: "Đậu Thần"
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["431A670C66D34971"]
+			description: ["Tìm trong cái hang Troll, chỗ mà mày thấy hạt đậu thần, cây đèn cầy có Thần Đằng."]
+			id: "4DB64B79C2C1EC80"
+			rewards: [{
+				id: "1995152D05656597"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Ali33 và cây đèn cầy"
+			tasks: [{
+				id: "51B111F932AC3BAC"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thần Đèn hay Thần Đằng?"
+			x: 3.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4DB64B79C2C1EC80"]
+			description: ["Nói cho sang thế thôi, phần này mấy thằng dev còn chưa làm xong nữa..."]
+			id: "3CF55B4CE4D5AC44"
+			rewards: [
+				{
+					id: "62318BF91488F694"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "3BAC3DCA0062ABDD"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			subtitle: "Hồi kết câu chuyện do ta quyết định!"
+			tasks: [{
+				id: "734DEDA0200EEE85"
+				title: "Hết chuyện!"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -21.5d
+		}
+	]
+	title: "Rừng Chạng Vạng"
+}

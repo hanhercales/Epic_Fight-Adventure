@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dy_i"
+	group: "1E121742FBBEEDE6"
+	icon: "fdbosses:malkuth_trophy"
+	id: "113BD3B3588B7AB9"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FCC0B35A517D786"]
+			id: "5F13FBFB530D56E2"
+			ignore_reward_blocking: true
+			rewards: [{
+				count: 100
+				id: "529C30244039C263"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "fdbosses:malkuth"
+				icon: "fdbosses:malkuth_trophy"
+				id: "65A6B2A19DA710DF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Malkuth"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["11BF89460E9E04B0"]
+			id: "4C11CEAA66290A5B"
+			ignore_reward_blocking: true
+			rewards: [{
+				count: 100
+				id: "7E4A0755BA151155"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "fdbosses:chesed"
+				icon: "fdbosses:chesed_trophy"
+				id: "60C9114DF77A756B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Chesed"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "11BF89460E9E04B0"
+			rewards: [
+				{
+					id: "16A074340618D0F3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "5543F5C862991161"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "529C279005FB8BC7"
+				item: "fdbosses:eye_of_chesed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "3FCC0B35A517D786"
+			rewards: [
+				{
+					id: "4952235E2E418C26"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "7BE240D239E694AF"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54D8F9202A54CE8B"
+				item: "fdbosses:eye_of_malkuth"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+	]
+	title: "Kết Thúc?"
+}

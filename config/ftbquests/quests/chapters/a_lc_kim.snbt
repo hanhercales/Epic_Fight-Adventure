@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_lc_kim"
+	group: "1E121742FBBEEDE6"
+	icon: {
+		Count: 1
+		id: "blades_of_the_fallen:scorched_katana"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "32F4CA28B284C0B1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Oni - một trong những Yokai cổ xưa và mạnh mẽ nhất, đã đến lúc chấm dứt sự tồn tại của hắn..."]
+			icon: {
+				Count: 1
+				id: "blades_of_the_fallen:heavy_oni_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0EF618612790A865"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "65FA1F0497D46756"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "5F1CE884CB28BC2B"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Don Burako! Avataro!"
+			tasks: [{
+				entity: "blades_of_the_fallen:heavy_oni"
+				icon: "blades_of_the_fallen:heavy_oni_spawn_egg"
+				id: "4181317249291099"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Oni Sister!"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: ["Một Samurai đã sa ngã và trở thành Yokai. Giờ đây, hắn vẫn đang canh giữ khu vực của mình..."]
+			icon: {
+				Count: 1
+				id: "blades_of_the_fallen:bamboo_samurai_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "56EBA7F85F0C59EA"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "38B39069E8A09775"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "21C3059BCC00DE8F"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Diệt Võ"
+			tasks: [{
+				entity: "blades_of_the_fallen:skeleton_samurai"
+				icon: "blades_of_the_fallen:skeleton_samurai_spawn_egg"
+				id: "089E49437E3E4EE8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Đọa Lạc Võ Sĩ"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Cáo Chín Đuôi - Yokai mạnh mẽ, cổ xưa và đầy bí ẩn. Nó xuất hiện ở nhiều truyền thuyết văn hóa phương Đông."
+				""
+				"Đã đến lúc &4nghiền nát&r nó..."
+			]
+			icon: {
+				Count: 1
+				id: "blades_of_the_fallen:kitsune_mask_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E0F5C1202E2FC81"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "0C94218B468B1958"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "49DBFAC7F56A2BFB"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Set Ignition"
+			tasks: [{
+				entity: "blades_of_the_fallen:kitsune_boss"
+				icon: "blades_of_the_fallen:kitsune_boss_spawn_egg"
+				id: "6558B1338786C7CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Geats Boost Mark IX"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			description: ["Xử 2 cái con mặt lồn này để lấy kinh nghiệm. Chứ đéo đâu ra mà cho chúng mày húp free mãi được?"]
+			id: "4E59C3714DA70308"
+			rewards: [
+				{
+					id: "6E6705A20C0BE35F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "7ECDFE53FBCE82E3"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Diệt qủy cứu nhân!"
+			tasks: [{
+				entity: "blades_of_the_fallen:kappa"
+				icon: "blades_of_the_fallen:kappa_spawn_egg"
+				id: "45B7F64FBECA5619"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Thợ Săn Y0K41"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "blades_of_the_fallen:bandit_mask_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48F8040D074D7CDB"
+			rewards: [
+				{
+					id: "06DE25B87F07A4D9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "0E388C681B8D2463"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Diệt Cướp!"
+			tasks: [{
+				entity: "blades_of_the_fallen:bandit_leader"
+				icon: "blades_of_the_fallen:bandit_leader_spawn_egg"
+				id: "4868201B1C3F829D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Thợ Săn Đạo Tặc"
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			description: ["Xử cái con cổ dài mặt lồn này để lấy kinh nghiệm. Trông nó có giống súc vật không?"]
+			id: "7E4EB78F503D3639"
+			rewards: [
+				{
+					id: "71BF63CD5D1A7180"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "57CA30D6312B4D51"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Diệt qủy cứu nhân!"
+			tasks: [{
+				entity: "blades_of_the_fallen:rokurokubi"
+				icon: "blades_of_the_fallen:rokurokubi_spawn_egg"
+				id: "66B86E7A9947891E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Thợ Săn Y0K41"
+			x: 1.5d
+			y: -8.0d
+		}
+	]
+	title: "Đọa Lạc Kiếm"
+}

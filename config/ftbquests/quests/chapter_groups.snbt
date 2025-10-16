@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "550BF00CAF5ED99F", title: "Start Your Engine!" }
+		{ id: "2CA04816AF547B92", title: "Nâng Cấp Trang Bị" }
+		{ id: "1E121742FBBEEDE6", title: "Máy Dập Boss" }
+		{ id: "208C9DB02EB0FFCC", title: "It's Gacha Time!!!!" }
+	]
+}

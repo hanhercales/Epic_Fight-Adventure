@@ -1,0 +1,1227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tu_t_ri"
+	group: "550BF00CAF5ED99F"
+	icon: "minecraft:chest"
+	id: "03B5D0F4A931C7F5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Nhìn lại mấy cái thứ mày đang cầm kìa, đúng là đồ bỏ đi. Nhưng thôi, có còn hơn không. Làm đi cho có cái mà dùng."]
+			id: "5EB43D569189F18A"
+			rewards: [{
+				count: 8
+				id: "4B0492C3879DAD60"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "31B2A43FFAB67505"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7348ECA9E4520A31"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36103BF33AC8B9B4"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Đồ Tồi Tàn Của Mày"
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5EB43D569189F18A"]
+			description: ["Mày định cởi truồng đi đánh nhau à? Bọn quái nó cười vào mặt cho. Đi kiếm sắt về mà rèn một bộ giáp cho ra hồn đi."]
+			id: "1E24BC0F1B071BD9"
+			rewards: [
+				{
+					id: "278442EFB4FC028A"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "27480EB09A4E2DA2"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "666E760463CC2079"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "475F4EE1C591E788"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2945486B7CF47AA5"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "751A396E20815FFD"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mặc Cái Gì Vào Đi, Nhìn Ngứa Mắt Vãi"
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5EB43D569189F18A"]
+			description: ["Mấy cái hầm ngục của bọn `Dungeons and Combat` đầy rẫy mấy thứ hay ho. Chế một cây Great Axe đi, vung vẩy trông cũng ra gì đấy."]
+			id: "2F79022D03EDE896"
+			rewards: [{
+				id: "1313B70EF6D79E53"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "050AD2D9D9711B92"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:iron_greataxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thử Đồ Chơi Mới"
+			x: 5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"1E24BC0F1B071BD9"
+				"2F79022D03EDE896"
+			]
+			description: ["Mày nghĩ giáp sắt là ngon lắm à? Nó chỉ để đỡ mấy cú đấm của bọn zombie quèn thôi. Đi đào kim cương đi, thằng lười."]
+			id: "0F7542E69BFFBCC8"
+			rewards: [
+				{
+					id: "6A386CA31ECA9884"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 10
+					id: "31755B8BAFABD141"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "305DD938E7FFE30D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Sắt Chỉ Là Đồ Bỏ Đi"
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0F7542E69BFFBCC8"]
+			description: ["Có kim cương rồi thì để ngắm à? Rèn ngay một bộ giáp kim cương đi. Mặc vào trông mày mới bớt phèn được."]
+			id: "58DBB57601FE5568"
+			rewards: [{
+				id: "51B5D18CB507EA71"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [
+				{
+					id: "1E97F2BDA522D0C3"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D2B1A19F867650D"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "511CB015658DFE56"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05A8DE69F7FDF9F0"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Giáp Kim Cương Mới Oách"
+			x: 9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0F7542E69BFFBCC8"]
+			description: ["Katana sắt của mày chỉ để thái rau thôi. `Blades of The Fallen` cho mày rèn cả Katana kim cương đấy. Chế ngay một cây đi."]
+			id: "7C96AB6D8BA6C32B"
+			rewards: [{
+				count: 10
+				id: "37C9F3C658929326"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A026A4BCACDC365"
+				item: {
+					Count: 1
+					id: "blades_of_the_fallen:diamond_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bén Hơn Nữa Đi, Thằng Ngu"
+			x: 7.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0F7542E69BFFBCC8"]
+			description: ["Trang bị trơn trông chán vãi. Xây một cái bàn phù phép đi rồi khắc mấy cái dòng chữ cổ lên đồ của mày. Trông thì màu mè đấy nhưng nó mạnh hơn thật."]
+			id: "6CE2C0E4EBFC2289"
+			rewards: [
+				{
+					count: 32
+					id: "08BF948876AAA38C"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "119BE18C509F5527"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4D4C6B75633B6A75"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "5CB8CB3D0BBA432B"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "Khắc Mấy Cái Chữ Vớ Vẩn Lên Đồ"
+			x: 5.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5B73ED5DEE261D00"]
+			description: ["Vẫn còn dùng quyển sách phép bằng sắt à? Yếu như sên. Nâng cấp nó lên Vàng đi, ít ra cũng học được mấy trò xịn hơn."]
+			id: "6B03D8933E2FF1F6"
+			rewards: [
+				{
+					count: 5
+					id: "171077CD036B073F"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "6AEC21293989D9EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5D99A9C01272C512"
+				item: "irons_spellbooks:gold_spell_book"
+				type: "item"
+			}]
+			title: "Sách Sắt Chỉ Để Lau Đít"
+			x: 3.5d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"6CE2C0E4EBFC2289"
+				"58DBB57601FE5568"
+				"7C96AB6D8BA6C32B"
+			]
+			description: ["`Cataclysm` có một con boss trông như đống xương khô biết đi tên là Ancient Remnant. Nó nằm trong mấy cái kim tự tháp ở sa mạc. Tìm nó và cho nó về với cát bụi đi."]
+			icon: "cataclysm:remnant_skull"
+			id: "585D1C3CA17EF343"
+			rewards: [
+				{
+					id: "4D543447B699560F"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 20
+					id: "563764FA6DE1C111"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "5A82AE001B5DBB20"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Đập Nát Đống Xương Khô Đó Đi"
+			x: 5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["5EB43D569189F18A"]
+			description: ["Ở trên này hết việc rồi. Xây một cái cổng địa ngục và nhảy vào đi. Nhưng tao cảnh báo trước, dưới đó không phải chỗ cho bọn yếu tim đâu."]
+			id: "47C8D1E0852DC1B6"
+			rewards: [{
+				count: 4
+				id: "757AAFD03E95BFDA"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "110FB3D5585900A9"
+				type: "dimension"
+			}]
+			title: "Mày Đã Sẵn Sàng Cho Địa Ngục Chưa?"
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["47C8D1E0852DC1B6"]
+			description: ["Kim cương ở dưới Nether chỉ là rác thôi. Thứ mày cần tìm là Mảnh Vỡ Cổ Đại. Nó hiếm và khó đào đấy, nhưng nó là thứ sẽ giúp mày mạnh hơn."]
+			id: "5C7A1F3819F82ECC"
+			rewards: [{
+				count: 5
+				id: "1AE1439A73FC47BF"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0CC023EC8C4D06BC"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "Đào Cứt Cổ Đại"
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5C7A1F3819F82ECC"]
+			description: ["Có mảnh vỡ rồi thì nung nó thành phế liệu, rồi kết hợp với vàng để tạo ra thỏi Netherite. Quy trình lằng nhằng nhưng đáng giá."]
+			id: "6F8EE285FF03DC02"
+			rewards: [{
+				id: "33A39C2295A2FF8D"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				count: 2L
+				id: "4E736BDC24C43272"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Nung Chảy Đống Cứt Đó"
+			x: 9.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6F8EE285FF03DC02"]
+			description: ["Dùng Netherite để nâng cấp một món đồ kim cương của mày. Món nào cũng được, để mày thấy sự khác biệt."]
+			id: "449C1C5F332B4028"
+			rewards: [{
+				id: "7DEA6B9E6F5A281A"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5255CE5064AC9FB8"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Biến Đống Kim Cương Của Mày Thành Thứ Xịn Hơn"
+			x: 11.5d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"449C1C5F332B4028"
+				"58DBB57601FE5568"
+			]
+			description: ["Một món thì thấm vào đâu? Nâng cấp toàn bộ set giáp của mày lên Netherite đi. Lúc đó mày mới có tư cách đi nghênh ngang ở Nether."]
+			id: "43409A3E0B50ECD1"
+			rewards: [
+				{
+					id: "1809EFBB5595EE9C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 10
+					id: "2344D4574111C805"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "4EE47B0EE31CF7F0"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "6C956261C016F200"
+				type: "advancement"
+			}]
+			title: "Full Set Netherite Mới Là Chân Ái"
+			x: 13.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6B03D8933E2FF1F6"]
+			description: ["Sách vàng cũng thường thôi. Nâng cấp nó lên Sách Phép Kim Cương đi. Đây là giới hạn sức mạnh phép thuật mà một thằng như mày có thể chạm tới rồi đấy."]
+			id: "4DF78105C840BFF2"
+			rewards: [
+				{
+					count: 10
+					id: "56C9C1BE0267CEE0"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "31728A19961E3A6A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "3FA4A50C064B1EEA"
+				item: "irons_spellbooks:diamond_spell_book"
+				type: "item"
+			}]
+			title: "Sức Mạnh Tối Thượng (Tạm Thời)"
+			x: 3.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"43409A3E0B50ECD1"
+				"7C96AB6D8BA6C32B"
+			]
+			description: ["The Harbinger của `Cataclysm` là một cỗ máy chiến tranh cổ đại. Chế tạo cái Mắt Máy để tìm nó, rồi đập nó ra thành sắt vụn cho tao. Mày cần có trang bị Netherite xịn đấy."]
+			id: "2C57276B0DF864F9"
+			rewards: [
+				{
+					id: "0C09A90D1B95F9ED"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 20
+					id: "12E528DD127FA50F"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "7F76E6A3B4EEB8F5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Tắt Nguồn Con Robot Ve Chai"
+			x: 11.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43409A3E0B50ECD1"]
+			description: ["The Netherite Monstrosity. Con quái vật to nhất, trâu nhất mà mày sẽ đối mặt ở giai đoạn này. Chế tạo cái Mắt Quái Dị để tìm nó. Tao khuyên thật, hãy chuẩn bị mọi thứ tốt nhất mày có."]
+			id: "068D8526C1853FD6"
+			rewards: [{
+				count: 10
+				id: "5A43A7D17026E64D"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26CF9B50AD4433A1"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "Chuẩn Bị Cho Tận Thế"
+			x: 15.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["068D8526C1853FD6"]
+			description: ["Nó đấy. Đừng có sợ hãi. Mọi thứ mày đã làm đều là để chuẩn bị cho trận chiến này. Giờ thì vào đi, và đừng chết một cách nhục nhã."]
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C61ADC417186A72"
+			rewards: [
+				{
+					id: "38ADA9413FA28B65"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 64
+					id: "522F174E95A8F2F4"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6BCFF0BE0A83EAB6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Giết Con Quái Vật Khổng Lồ"
+			x: 15.5d
+			y: -21.5d
+		}
+		{
+			dependencies: [
+				"0C61ADC417186A72"
+				"04F5C1CC15AE7CB2"
+				"4F30D8B29CF13D4D"
+				"553C42E08BCBA94D"
+				"2C57276B0DF864F9"
+				"23295B8F3C625F42"
+				"1041917F6687D457"
+				"6EF6C6A63EC62297"
+				"34B400431222145F"
+				"747E30C28BBE8ABE"
+			]
+			description: ["Tao thực sự ngạc nhiên đấy. Mày đã đánh bại con quái vật đó. Mày không còn là thằng gà mờ vô dụng nữa rồi. Giờ thì mày đã sẵn sàng. Sẵn sàng để đối mặt với những thứ còn kinh khủng hơn gấp vạn lần. Hành trình của mày... mới chỉ thực sự bắt đầu thôi."]
+			id: "46239ED0FE06D727"
+			rewards: [
+				{
+					id: "6CB28C0DC1A2F3C6"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "300E2DF97B5DA97E"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			tasks: [{
+				id: "295F458A93543014"
+				type: "checkmark"
+			}]
+			title: "Mày Vẫn Còn Sống À?"
+			x: 7.5d
+			y: -25.5d
+		}
+		{
+			dependencies: ["5EB43D569189F18A"]
+			description: ["Chế thử một cuốn này xem, nó sẽ giúp mày thành Fap Sư, dù là về sau cũng đề chùi đít thôi!"]
+			id: "02A7E81C10A980E7"
+			rewards: [
+				{
+					count: 5
+					id: "37D1DEFA116AC2D0"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "141E01B803100D9A"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E82AC3E217D7AA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Bắt đầu làm Fap sư"
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["02A7E81C10A980E7"]
+			description: ["Đến lúc thăng hạng rồi! Nâng quyển giấy vệ sinh của mày lên bậc Sắt đi mà đánh Rank!"]
+			id: "5B73ED5DEE261D00"
+			rewards: [
+				{
+					count: 5
+					id: "3B8A1FD86AA08E83"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "29EB11A90E2F1DBD"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05AB679DBFDCB250"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Fap Sư rank Sắt"
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["02A7E81C10A980E7"]
+			description: ["Tạo một cái Inscription Table mà viết Scroll! Chứ mày nghĩ phép để cast từ trên trời rơi xuống à?"]
+			id: "7D67BA7C59FE710D"
+			rewards: [
+				{
+					count: 3
+					id: "11AF59D161641C71"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0AB789014369C5B4"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60D476C8D38217B1"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Viết phép mới!"
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7D67BA7C59FE710D"]
+			description: ["Hãy viết những cuộn sác phép đầu tiên. Nó phế, nhưng được cái nó yếu!"]
+			id: "36FA2DF5A1823DDA"
+			rewards: [
+				{
+					id: "683C3C74EF5F2820"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "227A70AF0B65B62B"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "623038EC3E7180F1"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2923CA3D2C8C38A7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fireball"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Cuộn phép đầu moi"
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["42ED7568802C0DEE"]
+			description: [
+				"Triệu hồi con Wither và phang bỏ mẹ nó cho tao!"
+				""
+				"Đừng có nói với tao là mày chưa đủ đồ!"
+			]
+			icon: "minecraft:nether_star"
+			id: "553C42E08BCBA94D"
+			rewards: [
+				{
+					id: "31F9960CBD7E62DA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "587DF19D40510BED"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "3E4BD9E520FD04D3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hết Khô Héo"
+			x: 17.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43409A3E0B50ECD1"]
+			description: ["Đi chặt mấy thằng da đen bên Nether và cầm đầu chúng nó về."]
+			id: "42ED7568802C0DEE"
+			tasks: [{
+				count: 3L
+				id: "4ACEB8BA556C441A"
+				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			title: "Đầu Lâu Nigga"
+			x: 17.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["5DDB7DA0B9A33FD6"]
+			description: ["Tìm cánh cổng dẫn tới The End. Đừng nghĩ rằng mọi chuyện đã kết thúc! Đây mới là khởi đầu thôi!"]
+			id: "2FE64E6F8C14D8F3"
+			rewards: [{
+				id: "53DC02486651A474"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "54AE99351CB629EC"
+				type: "dimension"
+			}]
+			title: "Kết Thúc?"
+			x: -0.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5EB43D569189F18A"]
+			icon: "minecraft:ender_eye"
+			id: "5DDB7DA0B9A33FD6"
+			rewards: [{
+				id: "3320FC07CB79BA04"
+				table_id: 3818440790595553559L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1239D8B5DCEE1673"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Đi Tìm Stronghold"
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2FE64E6F8C14D8F3"]
+			description: [
+				"Tao nghĩ đến được đây thì mày đủ đồ rồi. Phang bỏ mẹ con rồng lộn này đi!"
+				""
+				"Và tao mong mày sẽ đánh với nó một cách ồ hố ồ hố chính chính!"
+			]
+			id: "0E5BBF80C51308BA"
+			rewards: [{
+				count: 10
+				id: "5862BFD416B8010F"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "0866FE97B309803F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Đánh Bại Rồng Lộn"
+			x: 1.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0E5BBF80C51308BA"]
+			description: ["Đánh xong con rồng thì làm gì? Đi tìm End Tàu chứ sao nữa!"]
+			id: "52D7ACD20728151B"
+			rewards: [{
+				count: 10
+				id: "0175E2205CA2FF4F"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:shulker_box"
+				id: "1F49A2F204BEBDE4"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "Thành Phố Tận Cùng"
+			x: 1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["52D7ACD20728151B"]
+			description: ["Tìm và diệt nó đi, tao mệt rồi..."]
+			id: "4F30D8B29CF13D4D"
+			rewards: [
+				{
+					id: "6337AFAE28A21353"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "0696134A3BAACFA7"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "41C32C55A1F21BB5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hộ Vệ Cúng Cuồi"
+			x: 3.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["5EB43D569189F18A"]
+			description: ["Tìm ngôi đền dưới đáy đại dương. Nhớ chuẩn bị sẵn đồ lặn!"]
+			id: "548F0443FE619079"
+			rewards: [{
+				count: 3
+				id: "44056FD3A148EDAC"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:prismarine_shard"
+				id: "799662A27E8B92FA"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			title: "Ngôi Đền Dưới Biển"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["548F0443FE619079"]
+			description: ["Như tao đã nói rồi: Phang chết mẹ nó đi!"]
+			id: "56B97CF63B89A20A"
+			rewards: [
+				{
+					id: "0F5CC85EEFF52740"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "26FADF2BFC309905"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "60E406A9CBB41AB9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hộ Vệ Già Cỗi"
+			x: -2.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["56B97CF63B89A20A"]
+			description: ["Đi tìm cái Sunken City, vào đó làm gì thì chắc mày biết rồi ha?"]
+			id: "0A4B7F46F368E07E"
+			rewards: [
+				{
+					id: "0D70329787EACD05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "3642341F9522F944"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "153B0A1F8EF3EF4E"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "Thành Cổ Vực Sâu"
+			x: -2.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0A4B7F46F368E07E"]
+			description: [
+				"Lại một con boss nữa sẽ bị hạ..."
+				""
+				"Hoặc là MÀY bị hạ!"
+			]
+			id: "2A645D6E9AEC6F5A"
+			rewards: [
+				{
+					id: "776D7655CC2F9489"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "195FF5534AC403DC"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:tidal_claws"
+				id: "17EEC1481446D274"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hạ Gục Thủy Quái"
+			x: -2.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["2A645D6E9AEC6F5A"]
+			description: ["Bé con Leviathan rất đáng yêu đó! Hãy yêu thương bé ấy nhé :>"]
+			icon: "cataclysm:the_baby_leviathan_bucket"
+			id: "04F5C1CC15AE7CB2"
+			rewards: [{
+				count: 5
+				id: "49155EAD0225EB12"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3226C8CF22F6C2B7"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "Nuôi Dưỡng Bé Con"
+			x: -0.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["4F411D521BD27B3E"]
+			id: "23295B8F3C625F42"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "48575A9C80114B79"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -21.5d
+		}
+		{
+			dependencies: [
+				"7C96AB6D8BA6C32B"
+				"58DBB57601FE5568"
+			]
+			description: [
+				"Một tòa thành cổ đại ẩn sâu dưới lòng đất..."
+				"Và tất nhiên, ở đó có mục tiêu mới!"
+			]
+			id: "4F411D521BD27B3E"
+			rewards: [
+				{
+					count: 5
+					id: "64BAAD8E8716B63D"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "49FC98C6EDC6471A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: "minecraft:sculk_catalyst"
+				id: "0D602C4F1F3424D3"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Thành Phố Cổ Đại"
+			x: 7.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["585D1C3CA17EF343"]
+			id: "1041917F6687D457"
+			tasks: [{
+				id: "64089C2E5629CF79"
+				item: "cataclysm:modern_remnant_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -21.5d
+		}
+		{
+			dependencies: [
+				"7C96AB6D8BA6C32B"
+				"58DBB57601FE5568"
+			]
+			description: ["Nói chung là: Phang nó đi, tao hết ý tưởng ghi nội dung rồi..."]
+			id: "747E30C28BBE8ABE"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "0D364B5D5C0249B3"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "77092296A6104FDC"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "100204A68F6229CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Maledictus"
+			x: 9.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["56B97CF63B89A20A"]
+			description: ["Nói chung là: Phang nó đi, tao hết ý tưởng ghi nội dung rồi..."]
+			id: "6EF6C6A63EC62297"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "05AEA6143E84224F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "2FC9E9495220A45A"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:ceraunus"
+				id: "758A57F907DF61AE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Scylla"
+			x: 1.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["43409A3E0B50ECD1"]
+			description: ["Nói chung là: Phang nó đi, tao hết ý tưởng ghi nội dung rồi..."]
+			id: "34B400431222145F"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "1F07F5BE2F22EC9B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "2FBC8931617AD34E"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5A9401EBAA163E8F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ignis"
+			x: 13.5d
+			y: -21.5d
+		}
+	]
+	title: "Tu Tô Ri Ồ"
+}

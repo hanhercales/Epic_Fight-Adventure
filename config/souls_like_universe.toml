@@ -1,0 +1,15 @@
+
+[system]
+	#Determines whether the armor has a passive effect.
+	"armor passive" = true
+	#Determines whether the weapon has a passive effect.
+	"weapon ability" = true
+	#Determines whether the boss will destroy blocks.
+	"bosses break block" = true
+	#Determines whether the slu monster will spawn.
+	"slu monster spawn" = true
+	#Determines whether the boss will gain buff effects.
+	"slu boss buff" = true
+	#Determines whether to grant starting items at the beginning of the game.
+	"starting item" = true
+

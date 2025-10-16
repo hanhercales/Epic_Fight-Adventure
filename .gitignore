@@ -1,0 +1,16 @@
+options.txt
+usercache.json
+usernamecache.json
+logs/
+crash-reports/
+*.log
+saves/
+screenshots/
+xaero/
+resourcepacks/
+server-resource-packs/
+natives/
+local/
+TLauncherAdditional.json
+mods/
+*.jar

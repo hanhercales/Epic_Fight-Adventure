@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "trm_ph_dit"
+	group: "1E121742FBBEEDE6"
+	icon: "bosses_of_mass_destruction:void_thorn"
+	id: "1E1D91DC233DA764"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B55222718C0CF5A"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "649EE035DBB552BE"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "06CAE4EF20170DC3"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "6C0A0592179598A6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Void Blossom"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "6E548DADDF6D45C8"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "37940225DE171A23"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "0DAE9A8F92F05A85"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:block/gauntlet_blackstone"
+					}
+				}
+				id: "527E54D39C3C7A98"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nether Gauntlet"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "04AEABC5314ED918"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "2048D0F32A4BE848"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "760DC22FA1973F8C"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "69E581376FCE175D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kamath"
+			x: 7.5d
+			y: -2.5d
+		}
+	]
+	title: "Trùm Phá Diệt"
+}

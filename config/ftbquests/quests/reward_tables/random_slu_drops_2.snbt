@@ -1,0 +1,51 @@
+{
+	id: "5B35324BF621608B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "random_slu_drops"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "slu:cloth_piece" }
+		{ item: "slu:crucible_token" }
+		{ item: "slu:flame_shard" }
+		{ item: "slu:metal_shard_5" }
+		{ item: "slu:dragon_scale" }
+		{ item: "slu:blasphemy_shard" }
+		{ item: "slu:corrupt_soul" }
+		{ item: "slu:rock_token" }
+		{ item: "slu:tower_flag" }
+		{ item: "slu:broken_cross" }
+		{ item: "slu:rotten_eye" }
+		{ item: "slu:giant_fang" }
+		{ item: "slu:metal_shard_4" }
+		{ item: "slu:shadow_shard" }
+		{ item: "slu:golden_sculpt" }
+		{ item: "slu:inherited_flame" }
+		{ item: "slu:samurai_token" }
+		{ item: "slu:godrick_knight_token" }
+		{ item: "slu:metal_shard_3" }
+		{ item: "slu:humanity" }
+		{ item: "slu:wither_shard" }
+		{ item: "slu:rusty_steel_shard" }
+		{ item: "slu:sacred_relic" }
+		{ item: "slu:metal_shard" }
+		{ item: "slu:magma_shard" }
+		{ item: "slu:fallen_kingdom_ring" }
+		{ item: "slu:godrick_soldier_token" }
+		{ item: "slu:smile_sticker" }
+		{ item: "slu:sunfire_shard" }
+		{ item: "slu:metal_shard_2" }
+		{ item: "slu:dark_blood" }
+		{ item: "slu:charred_silver_shard" }
+		{ item: "slu:nightmare_shard" }
+		{ item: "slu:broken_sword" }
+	]
+	title: "Random SLU Drops"
+}

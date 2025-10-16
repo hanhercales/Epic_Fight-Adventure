@@ -1,0 +1,487 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trang_b_nng_bng"
+	group: "2CA04816AF547B92"
+	icon: {
+		Count: 1
+		id: "dungeons_and_combat:molten_blazing_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "42B7AFB5E24A74E6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43409A3E0B50ECD1"]
+			description: [
+				"Một loại quặng đặc biệt, có thể dùng để chế tạo trang bị."
+				""
+				"Đi mà chế nó đi thằng lồn! Từ trên trời rơi xuống thì chỉ có cứt chim thôi!"
+			]
+			id: "0CF8DED2BC9563C1"
+			rewards: [{
+				count: 3
+				id: "4032F5470964A790"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "504491D8D38300B6"
+				item: "dungeons_and_combat:blazing_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CF8DED2BC9563C1"]
+			id: "6CFB0442DBB48B1B"
+			rewards: [{
+				count: 16
+				id: "5744D2B5592913C8"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3BFA2BDE10AA8A5D"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "452CEE7DE2AB73A8"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F48D5F8C6FF522C"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "186981AED055A744"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Molten Blazing Set"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CF8DED2BC9563C1"]
+			id: "3BC61AB8FDA4F6D4"
+			rewards: [{
+				count: 5
+				id: "3ADDF03B1DC8086B"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B7D60F35DFD074D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CF8DED2BC9563C1"]
+			id: "1C561DB90F085419"
+			rewards: [{
+				count: 5
+				id: "34E7CE085E5EE30F"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FB5E5BD7926AA3A"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CF8DED2BC9563C1"]
+			id: "30274A8351272622"
+			rewards: [{
+				count: 10
+				id: "2F6544441C37E755"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39BB356C0D888EC8"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:molten_blazing_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15044F5980E7F034"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:blazing_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CF8DED2BC9563C1"]
+			id: "0139BABA843CD7A6"
+			rewards: [{
+				count: 5
+				id: "47CF40399A4E63AF"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06626834C0B4CA75"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:molten_blazing_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BC61AB8FDA4F6D4"]
+			id: "4A197111415C8BD8"
+			rewards: [{
+				count: 5
+				id: "6AD6946565513E10"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "714682B231B5CADC"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_fist"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0139BABA843CD7A6"]
+			id: "1F7AE7EF8CFB8472"
+			rewards: [{
+				count: 5
+				id: "28163072C1AECBF4"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F057A401EA53620"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:cursed_molten_blazing_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CFB0442DBB48B1B"]
+			id: "152445555F747FE1"
+			rewards: [{
+				count: 16
+				id: "5DBDB99A76D29182"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B8E6A51D2C8176F"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:acid_molten_blazing_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75351589028CF309"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:acid_molten_blazing_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F4391893D0D576F"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:acid_molten_blazing_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EF9DDCAD5FB5EB2"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:acid_molten_blazing_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Molten Blazing Set"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30274A8351272622"]
+			id: "2DB065BF1D68504B"
+			rewards: [{
+				count: 10
+				id: "7A4D5BAB1EB34FED"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A4708A6AF0323D4"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:acid_molten_blazing_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69614BDB7041BEFC"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:acid_blazing_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3BC61AB8FDA4F6D4"]
+			id: "25F3A463D645F1F2"
+			rewards: [{
+				count: 5
+				id: "53FCEC5CC16F7C1B"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F06AE79301FE04D"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CFB0442DBB48B1B"]
+			id: "4888527AF9635DE3"
+			rewards: [{
+				count: 16
+				id: "7506B1ECDAC133E7"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33340C46EB67BFC9"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cursed_molten_blazing_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1645755DB572BBCF"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cursed_molten_blazing_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C9E020CFDF231BC"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cursed_molten_blazing_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7202844367E425FC"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cursed_molten_blazing_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Molten Blazing Set"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30274A8351272622"]
+			id: "2399B3CE73B2269D"
+			rewards: [{
+				count: 10
+				id: "2AE37749E6468BC9"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "681DD665EBFF4196"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cursed_molten_blazing_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F3150122C94654"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:cursed_blazing_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0139BABA843CD7A6"]
+			id: "0074FDBBCAE3D1F4"
+			rewards: [{
+				count: 5
+				id: "08DFC2A5460CA14E"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB9551B444A08EB"
+				item: {
+					Count: 1
+					id: "dungeons_and_combat:acid_molten_blazing_greathammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+	]
+	title: "Trang Bị Nóng Bỏng"
+}

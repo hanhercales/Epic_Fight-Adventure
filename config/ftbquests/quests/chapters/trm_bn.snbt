@@ -1,0 +1,444 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trm_bn"
+	group: "1E121742FBBEEDE6"
+	id: "40ABA6557C58DDA9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "097611894A10DBD3"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "188C6E1070D8F5D3"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "1391F6718A14B78F"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_godskin_apostle"
+				icon: "slu:boss_godskin_apostle_spawn_egg"
+				id: "2A1E352CF4EE2CB7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: -13.0d
+		}
+		{
+			id: "5CC807AC40B1E45B"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "05FDE0F4026D407D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "116ED295976214A1"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_margit"
+				icon: "slu:boss_margit_spawn_egg"
+				id: "5579447F0CF62F25"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -13.0d
+		}
+		{
+			id: "14A6F1CE099C83AD"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "2EA0D2830B733ACA"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "445C42E45E9003FD"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_elemer"
+				icon: "slu:boss_elemer_spawn_egg"
+				id: "51187BC151AC3438"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: -16.0d
+		}
+		{
+			id: "22F1C7B3CBA59CC1"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "1E7ECE0650A97A24"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "64FE152BFC0D131A"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_crucible_knight"
+				icon: "slu:boss_crucible_knight_spawn_egg"
+				id: "5392DC0ACCA9452B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -16.0d
+		}
+		{
+			id: "2133F46DE1FE1D50"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "05BA0C91B4747C99"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "678D2725AA908F48"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_gundyr"
+				icon: "slu:boss_gundyr_spawn_egg"
+				id: "05C78AAE91105AD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			id: "350E37F65BBE3FE0"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "23D09A6CCA2A1229"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "22E976D01F249130"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_gwyndolin"
+				icon: "slu:boss_gwyndolin_spawn_egg"
+				id: "051FBAC9E31DA6C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			id: "33B36B1C068C49CF"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "3CD8F61E07C6DE46"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "505D6ACAFB08EB43"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_ornstein"
+				icon: "slu:boss_ornstein_spawn_egg"
+				id: "3785E0EF0B293F77"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			id: "3F79F75E1780D655"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "7E62E3B12836ECD7"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "054F2EA1900340C9"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_artorias"
+				icon: "slu:boss_artorias_spawn_egg"
+				id: "6B638A874A997C0B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			id: "7279C929F133DE40"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "7E0BE13A6633FBDF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "44F06DB0466C9063"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_looking_glass_knight"
+				icon: "slu:boss_looking_glass_knight_spawn_egg"
+				id: "263E07320EF9E067"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -16.0d
+		}
+		{
+			id: "6A4A3FE2B68CA951"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "42CE26FE8A976C0F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "13BF0354F5F91585"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_abyss_watcher"
+				icon: "slu:boss_abyss_watcher_spawn_egg"
+				id: "02417A6098053A8C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -16.0d
+		}
+		{
+			id: "23005657B5CD2A46"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "521BD3700AD9C83F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "3D8CDEF72C28D24B"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_dragon_slayer_armour"
+				icon: "slu:boss_dragon_slayer_armour_spawn_egg"
+				id: "4126D453A6096D44"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -16.0d
+		}
+		{
+			id: "41E5608C95BF75A6"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "0C4CDA723802C0C9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "6B345F2FE1D9FA1B"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_nameless_king"
+				icon: "slu:boss_nameless_king_spawn_egg"
+				id: "2FC3E760E70EBDA1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			id: "364C75440098F7CF"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "6F48A8B77F674475"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "12A8BD3FA130CFE5"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_gael"
+				icon: "slu:boss_gael_spawn_egg"
+				id: "061B982B98B08A73"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			id: "68F77CA57563D76C"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "4EC59101140BB122"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "79C434B65526205B"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_soul_of_cinder"
+				icon: "slu:boss_soul_of_cinder_spawn_egg"
+				id: "00185CD9B3428DF6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			id: "59B6428616FF1D25"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "0960B8A188A8762E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "30CEB5708F2D6389"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_count_robert"
+				icon: "slu:boss_count_robert_spawn_egg"
+				id: "72DC533BD2EE0B37"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			id: "2ABDD18C5DFA66AB"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "6F061BCF9655F56B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "4310EBA0DE789705"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "slu:boss_fallen_lord"
+				icon: "slu:boss_fallen_lord_spawn_egg"
+				id: "511BEFC6278EC83C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -13.0d
+		}
+	]
+	title: "Trùm Bản Đồ!"
+}
