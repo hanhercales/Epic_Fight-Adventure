@@ -211,13 +211,49 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 1600L
+				count: 16000L
 				id: "762846FD3F756F96"
 				item: "blades_of_the_fallen:coin"
 				type: "item"
 			}]
 			title: "Survival Infinite Upgrade"
 			x: 5.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:diamond"
+			id: "222911D902943B1F"
+			rewards: [{
+				id: "5B86DFE00EADB519"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "109ABE3D967D2BB6"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Diamond"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			icon: "irons_spellbooks:arcane_debris"
+			id: "674CD1DE644C2753"
+			rewards: [{
+				id: "24A80D4DE0890EF7"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "2936F7590F2EDC73"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Arcane Debris"
+			x: 9.0d
 			y: -1.0d
 		}
 	]

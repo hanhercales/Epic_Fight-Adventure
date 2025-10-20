@@ -8421,6 +8421,89 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 268647,
+          "name": "Global XP",
+          "author": "bl4ckscor3",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/global-xp",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 55,
+              "name": "adventure_and_rpg",
+              "shortName": "roleplay",
+              "nesting": 0
+            },
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 844570,
+          "pictures": [],
+          "lanName": "global-xp",
+          "version": {
+            "id": 5644158,
+            "name": "globalxp-forge-1.20.1-1.12",
+            "updateDate": 1724081022000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "4002f17959290ccbe3869707f3d516d151ffb284",
+              "size": 42730,
+              "path": "mods/globalxp-forge-1.20.1-1.12.jar",
+              "url": "/mods/268647/5644158/globalxp-forge-1.20.1-1.12.jar"
+            },
+            "installed": 4573,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 243,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 65,
+            "name": "1.21.10"
+          },
+          "updated": 1760216400000,
+          "update": 1760216400000,
+          "downloadALL": 199451,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [],

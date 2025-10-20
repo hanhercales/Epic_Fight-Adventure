@@ -57,7 +57,7 @@
 				}
 			]
 			tasks: [{
-				entity: "irons_spellbooks:dead_king_corpse"
+				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "5AE67CAB401D7BD5"
 				type: "kill"
