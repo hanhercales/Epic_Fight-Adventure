@@ -72,5 +72,8 @@
   },
   "corpse": {
     "corpse": true
+  },
+  "globalxp": {
+    "display": true
   }
 }
