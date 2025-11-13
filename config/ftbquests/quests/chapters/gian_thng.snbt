@@ -211,7 +211,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16000L
+				count: 6400L
 				id: "762846FD3F756F96"
 				item: "blades_of_the_fallen:coin"
 				type: "item"
@@ -254,6 +254,36 @@
 			}]
 			title: "Arcane Debris"
 			x: 9.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "sword_soaring:vatansever"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6EAB7A78CF04BA5D"
+			rewards: [{
+				id: "5691773EDF16948E"
+				item: {
+					Count: 1
+					id: "sword_soaring:vatansever"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "454A02F8BF6B602A"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Vatansever"
+			x: 11.0d
 			y: -1.0d
 		}
 	]

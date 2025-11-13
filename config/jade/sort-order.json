@@ -1,4 +1,5 @@
 {
+  "ars_nouveau:mob_jar": null,
   "autoleveling:level": null,
   "corpse:corpse": null,
   "easy_villagers:breeder": null,
@@ -51,5 +52,6 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "storagedrawers:main": null,
   "twilightforest:quest_ram_wool": null
 }

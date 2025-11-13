@@ -1,0 +1,27 @@
+
+[spawning]
+	#Range: 0 ~ 100
+	raevyxSpawnWeight = 1
+	#Range: 1 ~ 10
+	raevyxMinGroupSize = 1
+	#Range: 1 ~ 10
+	raevyxMaxGroupSize = 2
+	#Range: 0 ~ 100
+	stegonautSpawnWeight = 5
+	#Range: 1 ~ 10
+	stegonautMinGroupSize = 1
+	#Range: 1 ~ 10
+	stegonautMaxGroupSize = 4
+	#Range: 0 ~ 100
+	cindervaneSpawnWeight = 3
+	#Range: 1 ~ 10
+	cindervaneMinGroupSize = 1
+	#Range: 1 ~ 10
+	cindervaneMaxGroupSize = 3
+	#Range: 0 ~ 100
+	nulljawSpawnWeight = 2
+	#Range: 1 ~ 10
+	nulljawMinGroupSize = 1
+	#Range: 1 ~ 10
+	nulljawMaxGroupSize = 2
+

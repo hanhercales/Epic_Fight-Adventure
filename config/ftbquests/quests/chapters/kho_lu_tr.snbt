@@ -12,7 +12,7 @@
 			id: "25F7E408A446D9D7"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "0533BF59B4451C6F"
 					item: "blades_of_the_fallen:coin"
 					type: "item"
@@ -20,7 +20,7 @@
 				{
 					id: "7844262BAA5B5C2D"
 					type: "xp_levels"
-					xp_levels: 20
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -430,6 +430,248 @@
 			}]
 			x: 5.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["25F7E408A446D9D7"]
+			dependency_requirement: "one_completed"
+			id: "14EF5A8C27F1C0F0"
+			rewards: [
+				{
+					count: 10
+					id: "3346B18F906CD64E"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "2D2B430CE124C557"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "0C875289208EBCD3"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14EF5A8C27F1C0F0"]
+			dependency_requirement: "one_completed"
+			id: "784ECDB7C2B676D0"
+			rewards: [
+				{
+					count: 10
+					id: "725C4219D7CF303B"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "2BF29500CE7C5C6D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					id: "0F53102D93EB16C1"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+				{
+					id: "544825A96ECD565F"
+					item: "storagedrawers:controller_slave"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25F7E408A446D9D7"]
+			id: "3862C6A715B94A7C"
+			rewards: [
+				{
+					count: 10
+					id: "6882B271D6315165"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "6BC445A9C1D42BC5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				advancement: "colossalchests:root"
+				criterion: ""
+				id: "58156BFC76F3E39E"
+				type: "advancement"
+			}]
+			title: "The Bigger Chest?"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25F7E408A446D9D7"]
+			id: "490270E998133D8B"
+			tasks: [{
+				id: "1EA3D1B062E496BF"
+				title: "Simple Storage Network"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["490270E998133D8B"]
+			id: "285EC9B4DFDA9F64"
+			rewards: [
+				{
+					count: 10
+					id: "3F1E02A01BB6ABE0"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "461DD64EE37FD5F7"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "5AE0288F533C7B27"
+				item: "storagenetwork:inventory"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["490270E998133D8B"]
+			id: "02B56E918079BCD2"
+			rewards: [
+				{
+					count: 10
+					id: "51553F97DF93DD09"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "092E09ADD1693346"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "1DC58012B74AEC54"
+				item: "storagenetwork:kabel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["490270E998133D8B"]
+			id: "493015088FAD5B8C"
+			rewards: [
+				{
+					count: 10
+					id: "6E3CABFE177ED0BE"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "6B92B92E21CDE61F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "46CA8F5F9B5C9585"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["285EC9B4DFDA9F64"]
+			id: "6D3A13C547A4A261"
+			rewards: [
+				{
+					count: 10
+					id: "1F1375A147BE4EEA"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "777279AB17CB5B61"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "6858547A5ADD5AB1"
+				item: "storagenetwork:request"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02B56E918079BCD2"]
+			id: "3820B0C5E1B293EA"
+			rewards: [
+				{
+					count: 10
+					id: "2C45429017076F11"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "79DD9463857166AB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "19B6D4A76099FB75"
+				item: "storagenetwork:storage_kabel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"02B56E918079BCD2"
+				"285EC9B4DFDA9F64"
+				"493015088FAD5B8C"
+			]
+			id: "7AD93E1BA6690AAF"
+			rewards: [
+				{
+					count: 10
+					id: "3F02D3294BEAF845"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+				{
+					id: "20399295082D8133"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "1888142E0A290CC0"
+				item: "storagenetwork:crafting_remote"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
 		}
 	]
 	title: "Kho Lưu Trữ"

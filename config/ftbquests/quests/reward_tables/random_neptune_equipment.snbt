@@ -191,6 +191,7 @@
 					Damage: 0
 				}
 			}
+			weight: 0.2f
 		}
 		{
 			item: {
@@ -200,6 +201,7 @@
 					Damage: 0
 				}
 			}
+			weight: 0.2f
 		}
 		{
 			item: {

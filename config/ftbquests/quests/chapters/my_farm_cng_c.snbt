@@ -276,29 +276,6 @@
 			y: -17.5d
 		}
 		{
-			id: "589B35FCD0A850BF"
-			rewards: [
-				{
-					id: "0B02A358AEACF127"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "2CE2C749FAB084AF"
-					item: "blades_of_the_fallen:coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:vindicator"
-				id: "31E09070897CA89F"
-				type: "kill"
-				value: 2L
-			}]
-			x: -4.0d
-			y: -17.5d
-		}
-		{
 			id: "653C9C0D7B2FD168"
 			rewards: [
 				{
@@ -318,8 +295,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
-			y: -15.5d
+			x: -4.0d
+			y: -17.5d
 		}
 		{
 			id: "460B178E5F063942"
@@ -417,6 +394,29 @@
 			}]
 			x: 2.0d
 			y: -14.5d
+		}
+		{
+			id: "388231F7347F34CF"
+			rewards: [
+				{
+					id: "60FC9361AF825196"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5CE70CC216A36378"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "168813D606A318D9"
+				type: "kill"
+				value: 4L
+			}]
+			x: -2.0d
+			y: -15.5d
 		}
 	]
 	title: "Máy Farm Công Đức"

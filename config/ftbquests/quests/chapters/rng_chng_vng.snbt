@@ -395,8 +395,8 @@
 			]
 			subtitle: "Lữ Quàng Băng Rá"
 			tasks: [{
-				entity: "twilightforest:knight_phantom"
-				icon: "twilightforest:knight_phantom_trophy"
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
 				id: "249305A257233C16"
 				type: "kill"
 				value: 1L
