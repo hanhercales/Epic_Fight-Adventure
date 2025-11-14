@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "my_con_ph_b_st"
+	group: "550BF00CAF5ED99F"
+	icon: "saintsdragons:dragon_ally_book"
+	id: "46B577FDCAD1AA3A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Đi tìm mấy con rồng lộn trên thé giới và thu phục bọn nó. Sau đấy thì cưỡi chúng nó luôn!"
+				""
+				"À, và nhân tiện, có cái đám Kobeko nữa, khá là hữu dụng đấy, tìm cách hạ gục chúng nó rồi đút táo vàng vào mồm đi!"
+			]
+			id: "7C8432C84424A456"
+			rewards: [
+				{
+					count: 16
+					id: "2E9860D8E6773943"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17AA6FCDC36AE766"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BED1191B32DBD7B"
+				title: "Tìm mấy con rông"
+				type: "checkmark"
+			}]
+			title: "Tìm mấy con rồng"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C8432C84424A456"]
+			id: "7D0B44B76205EB00"
+			rewards: [{
+				id: "195DBE6B5C41DDF6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "saintsdragons:tame_stegonaut"
+				criterion: ""
+				id: "47F577515B25FA1F"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C8432C84424A456"]
+			id: "6D2B65CEF9935941"
+			rewards: [{
+				id: "3F0DFA0A71742307"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "saintsdragons:tame_raevyx_female"
+				criterion: ""
+				id: "24B9E6589D49F3F8"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C8432C84424A456"]
+			id: "76CE33A21393E4C8"
+			rewards: [{
+				id: "40A69109DA3945E9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "saintsdragons:tame_cindervane"
+				criterion: ""
+				id: "58BBCFF60C1D7C56"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C8432C84424A456"]
+			id: "3304CAF12F8FE89E"
+			rewards: [{
+				id: "46D45EEAA48E7C4C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "saintsdragons:tame_nulljaw"
+				criterion: ""
+				id: "66DA51900011BD05"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C8432C84424A456"]
+			description: ["Có Kobeko rồi thì chế giáp cho chúng nó đấm nhau đi!"]
+			id: "3893817882C10D02"
+			rewards: [{
+				id: "50E67EE06343FE9E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "26DD89EF32F5E843"
+				item: "monsterexpansion:foundry"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Mấy con phò bò sát!"
+}

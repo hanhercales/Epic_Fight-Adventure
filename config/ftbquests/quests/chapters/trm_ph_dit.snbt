@@ -98,6 +98,90 @@
 			x: 7.5d
 			y: -2.5d
 		}
+		{
+			id: "112749CAAE54F923"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "6408ED2AD206C6AD"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "4A5D8D7106769723"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "monsterexpansion:skrythe"
+				icon: "monsterexpansion:skrythe_fang"
+				id: "25FEFDCA64CD2B5D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Skrythe"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "121CA70CB8337FCF"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "63E7E85DDB1CAAFE"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "04A45B6584CDE2B8"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "monsterexpansion:leivekilth"
+				icon: "monsterexpansion:leivekilth_tusk"
+				id: "47B26FA95472FF0C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Leivekilth"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "7154A314E3648F43"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "0DEF5B212CB8DBF6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "76F2FF405A1F771F"
+					item: "blades_of_the_fallen:coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "monsterexpansion:rhyza"
+				icon: "monsterexpansion:rhyza_claw"
+				id: "24E450EF7D88FC0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Rhyza"
+			x: 7.5d
+			y: 0.5d
+		}
 	]
 	title: "Trùm Phá Diệt"
 }
