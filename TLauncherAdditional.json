@@ -8215,181 +8215,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 1377795,
-          "name": "Combat Evolution",
-          "author": "ShelMarow",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/combat-evolution",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 7,
-              "name": "library_api",
-              "shortName": "api",
-              "nesting": 0
-            },
-            {
-              "id": 26,
-              "name": "mc_addons",
-              "shortName": "addons",
-              "nesting": 0
-            }
-          ],
-          "picture": 1262211,
-          "pictures": [],
-          "lanName": "combat-evolution",
-          "version": {
-            "id": 7188621,
-            "name": "1.0.2.1",
-            "updateDate": 1762341975000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "86c192396c6c566e646bbdb3473d5c24d2d67a02",
-              "size": 315383,
-              "path": "mods/CombatEvolution-1.0.2.1.jar",
-              "url": "/mods/1377795/7188621/CombatEvolution-1.0.2.1.jar"
-            },
-            "installed": 228,
-            "available": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 1,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 2559,
-              "name": "Epic Fight",
-              "gameEntityId": 405076,
-              "dependencyType": "required"
-            }
-          ],
-          "lastGameVersion": {
-            "id": 46,
-            "name": "1.20.1"
-          },
-          "updated": 1762290000000,
-          "update": 1762290000000,
-          "downloadALL": 288,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
-          "id": 1362602,
-          "name": "NightFall  Invade",
-          "author": "ShelMarow",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/nightfall-invade",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 55,
-              "name": "adventure_and_rpg",
-              "shortName": "roleplay",
-              "nesting": 0
-            },
-            {
-              "id": 13,
-              "name": "world_mobs",
-              "shortName": "mobs",
-              "nesting": 0
-            },
-            {
-              "id": 26,
-              "name": "mc_addons",
-              "shortName": "addons",
-              "nesting": 0
-            }
-          ],
-          "picture": 1249266,
-          "pictures": [],
-          "lanName": "nightfall-invade",
-          "version": {
-            "id": 7182124,
-            "name": "nightfall_invade-1.0.3",
-            "updateDate": 1762178574000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "2d0523a938af8d365e90db27c6bd13ae1e7bf795",
-              "size": 74555,
-              "path": "mods/nightfall_invade-1.0.3.jar",
-              "url": "/mods/1362602/7182124/nightfall_invade-1.0.3.jar"
-            },
-            "installed": 282,
-            "available": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 1,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [
-            {
-              "gameType": "mod",
-              "id": 4830,
-              "name": "L_Ender 's Cataclysm",
-              "gameEntityId": 551586,
-              "dependencyType": "required"
-            },
-            {
-              "gameType": "mod",
-              "id": 2559,
-              "name": "Epic Fight",
-              "gameEntityId": 405076,
-              "dependencyType": "required"
-            },
-            {
-              "gameType": "mod",
-              "id": 15843,
-              "name": "Combat Evolution",
-              "gameEntityId": 1377795,
-              "dependencyType": "required"
-            },
-            {
-              "gameType": "mod",
-              "id": 15323,
-              "name": "EpicFight-Nightfall",
-              "gameEntityId": 1307848,
-              "dependencyType": "required"
-            }
-          ],
-          "lastGameVersion": {
-            "id": 46,
-            "name": "1.20.1"
-          },
-          "updated": 1762117200000,
-          "update": 1762117200000,
-          "downloadALL": 768,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
           "id": 1336105,
           "name": "Monster Expansion",
           "author": "Saksolm",
@@ -9843,73 +9668,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 873138,
-          "name": "FPS optimizer",
-          "author": "The_TCT The_TCT",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fps-optimizer873138",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 3,
-              "name": "cosmetic",
-              "shortName": "cosmetic",
-              "nesting": 0
-            },
-            {
-              "id": 29,
-              "name": "world_gen",
-              "shortName": "world",
-              "nesting": 0
-            }
-          ],
-          "picture": 801368,
-          "pictures": [],
-          "lanName": "fps-optimizer",
-          "version": {
-            "id": 5430826,
-            "name": "fps_optimiser_-2.1-forge-1.20.1",
-            "updateDate": 1718449552000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "973c87be401312291c40ddbaa6180b02c3b35b26",
-              "size": 2311384,
-              "path": "mods/fps_optimiser_-2.1-forge-1.20.1.jar",
-              "url": "/mods/873138/5430826/fps_optimiser_-2.1-forge-1.20.1.jar"
-            },
-            "installed": 240561,
-            "available": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 5,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 51,
-            "name": "1.20.6"
-          },
-          "updated": 1719954000000,
-          "update": 1719954000000,
-          "downloadALL": 596944,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 908741,
           "name": "Embeddium",
           "author": "embeddedt embeddedt jellysquid3_ Asek3",
@@ -10063,6 +9821,28 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -183047924029700,
+          "name": "FpsReducer2-forge-1.20.1-2.5.1",
+          "favorite": false,
+          "version": {
+            "id": -183047929782200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4920a2e1d17090007179a568181624847fba0993",
+              "size": 125660,
+              "path": "mods/FpsReducer2-forge-1.20.1-2.5.1.jar",
+              "url": "mods/FpsReducer2-forge-1.20.1-2.5.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
