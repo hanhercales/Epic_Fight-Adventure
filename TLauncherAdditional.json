@@ -3271,67 +3271,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 574856,
-          "name": "Rubidium",
-          "author": "asek3",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/rubidium",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 22,
-              "name": "mc_miscellaneous",
-              "shortName": "mixed",
-              "nesting": 0
-            }
-          ],
-          "picture": 821323,
-          "pictures": [],
-          "lanName": "rubidium",
-          "version": {
-            "id": 4952685,
-            "name": "rubidium-mc1.20.1-0.7.1a",
-            "updateDate": 1702399528000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              }
-            ],
-            "metadata": {
-              "sha1": "2a1eeb09e35e0c2aa98cdf1d7391caad9360c94c",
-              "size": 715190,
-              "path": "mods/rubidium-mc1.20.1-0.7.1a.jar",
-              "url": "/mods/574856/4952685/rubidium-mc1.20.1-0.7.1a.jar"
-            },
-            "installed": 546482,
-            "available": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 5,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 46,
-            "name": "1.20.1"
-          },
-          "updated": 1702328400000,
-          "update": 1702328400000,
-          "downloadALL": 1419407,
-          "available": true,
-          "parser": true,
-          "totalComments": 0,
-          "adult": false
-        },
-        {
-          "stateGameElement": "active",
           "id": 438332,
           "name": "SuperMartijn642's Config Lib",
           "author": "supermartijn642",
@@ -8066,79 +8005,6 @@
         },
         {
           "stateGameElement": "active",
-          "id": 1100918,
-          "name": "Custom FPS Display",
-          "author": "awesome_hippo",
-          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/custom-fps-display",
-          "favorite": false,
-          "categories": [
-            {
-              "id": 22,
-              "name": "mc_miscellaneous",
-              "shortName": "mixed",
-              "nesting": 0
-            },
-            {
-              "id": 6,
-              "name": "map_information",
-              "shortName": "maps",
-              "nesting": 0
-            }
-          ],
-          "picture": 947233,
-          "pictures": [
-            953254,
-            953253
-          ],
-          "lanName": "custom-fps-display",
-          "version": {
-            "id": 5776153,
-            "name": "customfpsdisplay-2.0.0",
-            "updateDate": 1727867464000,
-            "type": "release",
-            "gameVersionsDTO": [
-              {
-                "id": 46,
-                "name": "1.20.1"
-              },
-              {
-                "id": 45,
-                "name": "1.20"
-              }
-            ],
-            "metadata": {
-              "sha1": "df34d9adeeb775784ef4aad6372de582a8fa7367",
-              "size": 7080,
-              "path": "mods/customfpsdisplay-2.0.0.jar",
-              "url": "/mods/1100918/5776153/customfpsdisplay-2.0.0.jar"
-            },
-            "installed": 33837,
-            "available": false,
-            "minecraftVersionTypes": [
-              {
-                "id": 1,
-                "name": "forge"
-              }
-            ]
-          },
-          "popularity": 2,
-          "downloadMonth": 0,
-          "userInstall": false,
-          "populateStatus": false,
-          "dependencies": [],
-          "lastGameVersion": {
-            "id": 55,
-            "name": "1.21.3"
-          },
-          "updated": 1730840400000,
-          "update": 1730840400000,
-          "downloadALL": 79899,
-          "available": true,
-          "parser": true,
-          "totalComments": 0
-        },
-        {
-          "stateGameElement": "active",
           "id": 689467,
           "name": "Packet Fixer",
           "author": "x_tonimatasmc_x",
@@ -9795,6 +9661,408 @@
           "available": true,
           "parser": true,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 526854,
+          "name": "Starlight (Forge)",
+          "author": "spottedstar",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/starlight-forge",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 821290,
+          "pictures": [],
+          "lanName": "starlight-forge",
+          "version": {
+            "id": 4631193,
+            "name": "starlight-1.1.2+forge.1cda73c",
+            "updateDate": 1688785632000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "a915880c7834a0b0f9f300f0e3053deaa9a3205a",
+              "size": 110583,
+              "path": "mods/starlight-1.1.2+forge.1cda73c.jar",
+              "url": "/mods/526854/4631193/starlight-1.1.2+forge.1cda73c.jar"
+            },
+            "installed": 117428,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 47,
+            "name": "1.20.2"
+          },
+          "updated": 1698354000000,
+          "update": 1698354000000,
+          "downloadALL": 206429,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 949555,
+          "name": "BadOptimizations",
+          "author": "imthosea imthosea",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/badoptimizations",
+          "favorite": false,
+          "categories": [],
+          "picture": 821380,
+          "pictures": [],
+          "lanName": "badoptimizations",
+          "version": {
+            "id": 7055630,
+            "name": "2.3.1-1.20.1",
+            "updateDate": 1759357063000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "05961374fb4e561e063168d058b155f8415c6697",
+              "size": 452475,
+              "path": "mods/BadOptimizations-2.3.1-1.20.1.jar",
+              "url": "/mods/949555/7055630/BadOptimizations-2.3.1-1.20.1.jar"
+            },
+            "installed": 7440,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 65,
+            "name": "1.21.10"
+          },
+          "updated": 1761771600000,
+          "update": 1761771600000,
+          "downloadALL": 108674,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 950085,
+          "name": "Long NBT Killer",
+          "author": "Dovecot_Official Dovecot_Official MikhailTapio",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/long-nbt-killer",
+          "favorite": false,
+          "categories": [],
+          "picture": 847736,
+          "pictures": [],
+          "lanName": "long-nbt-killer",
+          "version": {
+            "id": 4956449,
+            "name": "LongNbtKiller-Forge-1.20.1-1.0.0",
+            "updateDate": 1702540626000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
+            "metadata": {
+              "sha1": "f185e91d40a1c12d96c176cdf635532e9b066bb3",
+              "size": 15244,
+              "path": "mods/LongNbtKiller-Forge-1.20.1-1.0.0.jar",
+              "url": "/mods/950085/4956449/LongNbtKiller-Forge-1.20.1-1.0.0.jar"
+            },
+            "installed": 963,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 1,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 63,
+            "name": "1.21.8"
+          },
+          "updated": 1759006800000,
+          "update": 1759006800000,
+          "downloadALL": 1324,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 873138,
+          "name": "FPS optimizer",
+          "author": "The_TCT The_TCT",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fps-optimizer873138",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            },
+            {
+              "id": 29,
+              "name": "world_gen",
+              "shortName": "world",
+              "nesting": 0
+            }
+          ],
+          "picture": 801368,
+          "pictures": [],
+          "lanName": "fps-optimizer",
+          "version": {
+            "id": 5430826,
+            "name": "fps_optimiser_-2.1-forge-1.20.1",
+            "updateDate": 1718449552000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "973c87be401312291c40ddbaa6180b02c3b35b26",
+              "size": 2311384,
+              "path": "mods/fps_optimiser_-2.1-forge-1.20.1.jar",
+              "url": "/mods/873138/5430826/fps_optimiser_-2.1-forge-1.20.1.jar"
+            },
+            "installed": 240561,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 51,
+            "name": "1.20.6"
+          },
+          "updated": 1719954000000,
+          "update": 1719954000000,
+          "downloadALL": 596944,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 908741,
+          "name": "Embeddium",
+          "author": "embeddedt embeddedt jellysquid3_ Asek3",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+          "favorite": false,
+          "categories": [],
+          "picture": 820542,
+          "pictures": [],
+          "lanName": "embeddium",
+          "version": {
+            "id": 5681725,
+            "name": "embeddium-0.3.31+mc1.20.1",
+            "updateDate": 1725145909000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+              "size": 1320675,
+              "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+              "url": "/mods/908741/5681725/embeddium-0.3.31+mc1.20.1.jar"
+            },
+            "installed": 524838,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 5735,
+              "name": "Rubidium",
+              "gameEntityId": 574856,
+              "dependencyType": "incompatible"
+            },
+            {
+              "gameType": "mod",
+              "id": 7103,
+              "name": "TexTrue's Embeddium Options",
+              "gameEntityId": 910506,
+              "dependencyType": "incompatible"
+            }
+          ],
+          "lastGameVersion": {
+            "id": 57,
+            "name": "1.21.4"
+          },
+          "updated": 1737666000000,
+          "update": 1737666000000,
+          "downloadALL": 963777,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 654373,
+          "name": "Embeddium (Rubidium) Extra",
+          "author": "dimadencep",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/rubidium-extra",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 787863,
+          "pictures": [
+            338256,
+            338255
+          ],
+          "lanName": "rubidium-extra",
+          "version": {
+            "id": 6101745,
+            "name": "rubidium-extra-0.5.4.4+mc1.20.1-build.131",
+            "updateDate": 1737256575000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              }
+            ],
+            "metadata": {
+              "sha1": "bb422d5626bf69841e444a3e545c8e71b6928cf8",
+              "size": 568608,
+              "path": "mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+              "url": "/mods/654373/6101745/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar"
+            },
+            "installed": 102239,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 5,
+                "name": "neoForge"
+              },
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 5139,
+              "name": "Oculus",
+              "gameEntityId": 581495,
+              "dependencyType": "optional"
+            },
+            {
+              "gameType": "mod",
+              "id": 6058,
+              "name": "Embeddium",
+              "gameEntityId": 908741,
+              "dependencyType": "required"
+            }
+          ],
+          "lastGameVersion": {
+            "id": 53,
+            "name": "1.21.1"
+          },
+          "updated": 1754514000000,
+          "update": 1754514000000,
+          "downloadALL": 568193,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [
