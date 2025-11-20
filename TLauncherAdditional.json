@@ -9824,25 +9824,68 @@
         },
         {
           "stateGameElement": "active",
-          "id": -183047924029700,
-          "name": "FpsReducer2-forge-1.20.1-2.5.1",
+          "id": 280294,
+          "name": "FPS Reducer",
+          "author": "bre2el",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fps-reducer",
           "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 821327,
+          "pictures": [],
+          "lanName": "fps-reducer",
           "version": {
-            "id": -183047929782200,
-            "name": "1.0",
+            "id": 6791399,
+            "name": "FpsReducer2-forge-1.20.1-2.5.1",
+            "updateDate": 1753023214000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              }
+            ],
             "metadata": {
               "sha1": "4920a2e1d17090007179a568181624847fba0993",
               "size": 125660,
               "path": "mods/FpsReducer2-forge-1.20.1-2.5.1.jar",
-              "url": "mods/FpsReducer2-forge-1.20.1-2.5.1.jar"
+              "url": "/mods/280294/6791399/FpsReducer2-forge-1.20.1-2.5.1.jar"
             },
-            "available": false
+            "installed": 232791,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
           },
-          "userInstall": true,
+          "popularity": 5,
+          "downloadMonth": 15661,
+          "userInstall": false,
           "populateStatus": false,
-          "available": false,
-          "parser": false,
-          "totalComments": 0
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 65,
+            "name": "1.21.10"
+          },
+          "updated": 1760130000000,
+          "update": 1760130000000,
+          "downloadALL": 19334259,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [

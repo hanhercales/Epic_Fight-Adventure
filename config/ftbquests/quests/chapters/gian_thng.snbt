@@ -286,6 +286,36 @@
 			x: 11.0d
 			y: -1.0d
 		}
+		{
+			icon: {
+				Count: 1
+				id: "epicfight:uchigatana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6CDF4E02B15605BB"
+			rewards: [{
+				id: "1F36143A26EDE594"
+				item: {
+					Count: 1
+					id: "epicfight:uchigatana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7C1829C1B5D5210F"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Uchigatana"
+			x: -1.0d
+			y: 1.0d
+		}
 	]
 	title: "Gian thương"
 }
