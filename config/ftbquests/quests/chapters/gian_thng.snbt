@@ -316,6 +316,60 @@
 			x: -1.0d
 			y: 1.0d
 		}
+		{
+			icon: "irons_spellbooks:arcane_essence"
+			id: "07F56D0C565F3852"
+			rewards: [{
+				id: "0282F726A9713E4C"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4F38CEC95B6C352D"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Arcane Essence"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: "irons_spellbooks:blank_rune"
+			id: "755BC7FC3FDFD729"
+			rewards: [{
+				id: "48A0DDC7294DCF64"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "36656C87798869EC"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Blank Runestone"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: "artifacts:villager_hat"
+			id: "1E455268017C7247"
+			rewards: [{
+				id: "205DF61DEBB438CF"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "374207E9924171C7"
+				item: "blades_of_the_fallen:coin"
+				type: "item"
+			}]
+			title: "Villager Hat"
+			x: 5.0d
+			y: 1.0d
+		}
 	]
 	title: "Gian thương"
 }

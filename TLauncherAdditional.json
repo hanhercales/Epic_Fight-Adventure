@@ -9886,6 +9886,118 @@
           "parser": true,
           "totalComments": 0,
           "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 849519,
+          "name": "e4mc",
+          "author": "skyegreen",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/e4mc",
+          "favorite": false,
+          "categories": [],
+          "picture": 1184220,
+          "pictures": [
+            1166954
+          ],
+          "lanName": "e4mc",
+          "version": {
+            "id": 6710382,
+            "name": "_minecraft-forge-5.4.1",
+            "updateDate": 1751254641000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 51,
+                "name": "1.20.6"
+              },
+              {
+                "id": 50,
+                "name": "1.20.5"
+              },
+              {
+                "id": 49,
+                "name": "1.20.4"
+              },
+              {
+                "id": 48,
+                "name": "1.20.3"
+              },
+              {
+                "id": 47,
+                "name": "1.20.2"
+              },
+              {
+                "id": 46,
+                "name": "1.20.1"
+              },
+              {
+                "id": 45,
+                "name": "1.20"
+              },
+              {
+                "id": 44,
+                "name": "1.19.4"
+              },
+              {
+                "id": 43,
+                "name": "1.19.3"
+              },
+              {
+                "id": 38,
+                "name": "1.19.2"
+              },
+              {
+                "id": 37,
+                "name": "1.19.1"
+              },
+              {
+                "id": 36,
+                "name": "1.19"
+              },
+              {
+                "id": 35,
+                "name": "1.18.2"
+              },
+              {
+                "id": 34,
+                "name": "1.18.1"
+              },
+              {
+                "id": 33,
+                "name": "1.18"
+              }
+            ],
+            "metadata": {
+              "sha1": "6ebd3817a9d188a62a7c866794e64e073eef7209",
+              "size": 631050,
+              "path": "mods/e4mc_minecraft-forge-5.4.1.jar",
+              "url": "/mods/849519/6710382/e4mc_minecraft-forge-5.4.1.jar"
+            },
+            "installed": 113857,
+            "available": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 1,
+                "name": "forge"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 61,
+            "name": "1.21.6"
+          },
+          "updated": 1751230800000,
+          "update": 1751230800000,
+          "downloadALL": 520300,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
         }
       ],
       "resourcePacks": [
